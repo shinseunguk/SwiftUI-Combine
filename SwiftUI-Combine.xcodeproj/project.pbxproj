@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
+		ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
+		ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACF299722C19939400DCFF27 /* SwiftUI_CombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299712C19939400DCFF27 /* SwiftUI_CombineApp.swift */; };
 		ACF299742C19939400DCFF27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF299732C19939400DCFF27 /* ContentView.swift */; };
 		ACF299762C19939500DCFF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF299752C19939500DCFF27 /* Assets.xcassets */; };
@@ -43,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACDE45702E6029D400E5E997 /* StateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoView.swift; sourceTree = "<group>"; };
 		ACF2996E2C19939400DCFF27 /* SwiftUI-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF299712C19939400DCFF27 /* SwiftUI_CombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CombineApp.swift; sourceTree = "<group>"; };
 		ACF299732C19939400DCFF27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACDE456F2E6029C800E5E997 /* State & Data Flow */ = {
+			isa = PBXGroup;
+			children = (
+				ACDE45702E6029D400E5E997 /* StateDemoView.swift */,
+			);
+			path = "State & Data Flow";
+			sourceTree = "<group>";
+		};
 		ACF299652C19939400DCFF27 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +156,7 @@
 		ACF2999B2C1ABFDE00DCFF27 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ACDE456F2E6029C800E5E997 /* State & Data Flow */,
 				ACF299732C19939400DCFF27 /* ContentView.swift */,
 				ACF2999F2C1AC12C00DCFF27 /* PublisherView.swift */,
 			);
@@ -317,6 +330,7 @@
 				ACF299A42C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF299722C19939400DCFF27 /* SwiftUI_CombineApp.swift in Sources */,
 				ACF299A02C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
+				ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF299832C19939500DCFF27 /* SwiftUI_CombineTests.swift in Sources */,
+				ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF299A12C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF299AA2C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF299A52C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
@@ -340,6 +355,7 @@
 				ACF299A62C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF2998D2C19939500DCFF27 /* SwiftUI_CombineUITests.swift in Sources */,
 				ACF299A22C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
+				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

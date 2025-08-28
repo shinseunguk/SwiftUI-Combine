@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git filter-branch:*)",
+      "Bash(git log:*)",
+      "Bash(git config:*)"
+    ],
+    "deny": []
+  }
+}

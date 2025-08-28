@@ -72,13 +72,14 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("SwiftUI+Combine 스터디")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 
     @ViewBuilder
     private func destinationView(for value: String) -> some View {
         switch value {
-//        case "State 관리": StateDemoView()
+        case "State 관리": StateDemoView()
 //        case "Binding": BindingDemoView()
 //        case "ObservedObject": ObservedObjectDemoView()
 //        case "StateObject": StateObjectDemoView()
