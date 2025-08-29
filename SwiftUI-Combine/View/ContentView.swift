@@ -81,7 +81,7 @@ struct ContentView: View {
         switch value {
         case "State 관리": StateDemoView()
         case "Binding": BindingDemoView()
-//        case "ObservedObject": ObservedObjectDemoView()
+        case "ObservedObject": ObservedObjectDemoView()
 //        case "StateObject": StateObjectDemoView()
 //        case "EnvironmentObject": EnvironmentObjectDemoRoot()
 //        case "Environment 값": EnvironmentValueDemoView()
