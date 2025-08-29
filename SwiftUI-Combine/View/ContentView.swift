@@ -80,7 +80,7 @@ struct ContentView: View {
     private func destinationView(for value: String) -> some View {
         switch value {
         case "State 관리": StateDemoView()
-//        case "Binding": BindingDemoView()
+        case "Binding": BindingDemoView()
 //        case "ObservedObject": ObservedObjectDemoView()
 //        case "StateObject": StateObjectDemoView()
 //        case "EnvironmentObject": EnvironmentObjectDemoRoot()
