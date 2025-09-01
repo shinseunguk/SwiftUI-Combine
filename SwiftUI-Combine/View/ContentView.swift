@@ -87,7 +87,7 @@ struct ContentView: View {
         case "SceneStorage": SceneStorageDemoView()
         case "GestureState": GestureStateDemoView()
         case "FocusState": FocusStateDemoView()
-//        case "ScaledMetric": ScaledMetricDemoView()
+        case "ScaledMetric": ScaledMetricDemoView()
 //        case "Namespace (matchedGeometryEffect)": NamespaceDemoView()
 //        case "MainActor": MainActorDemoView()
 //        case "Observable (iOS 17+)": ObservableDemoView()

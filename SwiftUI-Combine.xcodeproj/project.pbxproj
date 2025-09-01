@@ -55,6 +55,9 @@
 		ACF3A26B2E658897005CA854 /* FocusStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A26A2E658897005CA854 /* FocusStateDemoView.swift */; };
 		ACF3A26C2E658897005CA854 /* FocusStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A26A2E658897005CA854 /* FocusStateDemoView.swift */; };
 		ACF3A26D2E658897005CA854 /* FocusStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A26A2E658897005CA854 /* FocusStateDemoView.swift */; };
+		ACF3A26F2E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A26E2E658E01005CA854 /* ScaledMetricDemoView.swift */; };
+		ACF3A2702E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A26E2E658E01005CA854 /* ScaledMetricDemoView.swift */; };
+		ACF3A2712E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A26E2E658E01005CA854 /* ScaledMetricDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +102,7 @@
 		ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2662E65796E005CA854 /* GestureStateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStateDemoView.swift; sourceTree = "<group>"; };
 		ACF3A26A2E658897005CA854 /* FocusStateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateDemoView.swift; sourceTree = "<group>"; };
+		ACF3A26E2E658E01005CA854 /* ScaledMetricDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledMetricDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 				ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */,
 				ACF3A2662E65796E005CA854 /* GestureStateDemoView.swift */,
 				ACF3A26A2E658897005CA854 /* FocusStateDemoView.swift */,
+				ACF3A26E2E658E01005CA854 /* ScaledMetricDemoView.swift */,
 			);
 			path = "State & Data Flow";
 			sourceTree = "<group>";
@@ -383,6 +388,7 @@
 				ACF299742C19939400DCFF27 /* ContentView.swift in Sources */,
 				ACF299A42C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A2532E652777005CA854 /* StateObjectDemoView.swift in Sources */,
+				ACF3A2702E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF299722C19939400DCFF27 /* SwiftUI_CombineApp.swift in Sources */,
 				ACF299A02C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A26C2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
@@ -405,6 +411,7 @@
 				ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF299A12C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A2552E652777005CA854 /* StateObjectDemoView.swift in Sources */,
+				ACF3A26F2E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF299AA2C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF299A52C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A26B2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
@@ -427,6 +434,7 @@
 				ACF2998F2C19939500DCFF27 /* SwiftUI_CombineUITestsLaunchTests.swift in Sources */,
 				ACF299A62C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A2542E652777005CA854 /* StateObjectDemoView.swift in Sources */,
+				ACF3A2712E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF2998D2C19939500DCFF27 /* SwiftUI_CombineUITests.swift in Sources */,
 				ACF299A22C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A26D2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
