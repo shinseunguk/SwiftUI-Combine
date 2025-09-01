@@ -82,7 +82,7 @@ struct ContentView: View {
         case "Binding": BindingDemoView()
         case "ObservedObject & StateObject": ObservedObjectDemoView()
         case "EnvironmentObject": EnvironmentObjectDemoRoot()
-//        case "Environment 값": EnvironmentValueDemoView()
+        case "Environment 값": EnvironmentValueDemoView()
 //        case "AppStorage": AppStorageDemoView()
 //        case "SceneStorage": SceneStorageDemoView()
 //        case "GestureState": GestureStateDemoView()
