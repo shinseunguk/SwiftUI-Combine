@@ -49,6 +49,9 @@
 		ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */; };
 		ACF3A2642E657238005CA854 /* SceneStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */; };
 		ACF3A2652E657238005CA854 /* SceneStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */; };
+		ACF3A2672E65796E005CA854 /* GestureStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2662E65796E005CA854 /* GestureStateDemoView.swift */; };
+		ACF3A2682E65796E005CA854 /* GestureStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2662E65796E005CA854 /* GestureStateDemoView.swift */; };
+		ACF3A2692E65796E005CA854 /* GestureStateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2662E65796E005CA854 /* GestureStateDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +94,7 @@
 		ACF3A25A2E655688005CA854 /* EnvironmentValueDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValueDemoView.swift; sourceTree = "<group>"; };
 		ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageDemoView.swift; sourceTree = "<group>"; };
+		ACF3A2662E65796E005CA854 /* GestureStateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStateDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 				ACF3A25A2E655688005CA854 /* EnvironmentValueDemoView.swift */,
 				ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */,
 				ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */,
+				ACF3A2662E65796E005CA854 /* GestureStateDemoView.swift */,
 			);
 			path = "State & Data Flow";
 			sourceTree = "<group>";
@@ -375,6 +380,7 @@
 				ACF3A2532E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACF299722C19939400DCFF27 /* SwiftUI_CombineApp.swift in Sources */,
 				ACF299A02C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
+				ACF3A2672E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
 				ACF3A2582E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF3A2602E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
@@ -395,6 +401,7 @@
 				ACF3A2552E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACF299AA2C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF299A52C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
+				ACF3A2682E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
 				ACF3A2572E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45752E6030F800E5E997 /* StateDemoViewTests.swift in Sources */,
 				ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
@@ -415,6 +422,7 @@
 				ACF3A2542E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACF2998D2C19939500DCFF27 /* SwiftUI_CombineUITests.swift in Sources */,
 				ACF299A22C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
+				ACF3A2692E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
 				ACF3A2592E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,

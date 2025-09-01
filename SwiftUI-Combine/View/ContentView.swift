@@ -85,7 +85,7 @@ struct ContentView: View {
         case "Environment 값": EnvironmentValueDemoView()
         case "AppStorage": AppStorageDemoView()
         case "SceneStorage": SceneStorageDemoView()
-//        case "GestureState": GestureStateDemoView()
+        case "GestureState": GestureStateDemoView()
 //        case "FocusState": FocusStateDemoView()
 //        case "ScaledMetric": ScaledMetricDemoView()
 //        case "Namespace (matchedGeometryEffect)": NamespaceDemoView()
