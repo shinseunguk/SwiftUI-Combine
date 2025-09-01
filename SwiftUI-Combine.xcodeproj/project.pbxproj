@@ -43,6 +43,9 @@
 		ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A25A2E655688005CA854 /* EnvironmentValueDemoView.swift */; };
 		ACF3A25C2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A25A2E655688005CA854 /* EnvironmentValueDemoView.swift */; };
 		ACF3A25D2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A25A2E655688005CA854 /* EnvironmentValueDemoView.swift */; };
+		ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */; };
+		ACF3A2602E656BCF005CA854 /* AppStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */; };
+		ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,7 @@
 		ACF3A2522E652777005CA854 /* StateObjectDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2562E653051005CA854 /* EnvironmentObjectDemoRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectDemoRoot.swift; sourceTree = "<group>"; };
 		ACF3A25A2E655688005CA854 /* EnvironmentValueDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValueDemoView.swift; sourceTree = "<group>"; };
+		ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 				ACF3A2522E652777005CA854 /* StateObjectDemoView.swift */,
 				ACF3A2562E653051005CA854 /* EnvironmentObjectDemoRoot.swift */,
 				ACF3A25A2E655688005CA854 /* EnvironmentValueDemoView.swift */,
+				ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */,
 			);
 			path = "State & Data Flow";
 			sourceTree = "<group>";
@@ -367,6 +372,7 @@
 				ACF299A02C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A2582E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */,
+				ACF3A2602E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				AC33C6BD2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 			);
@@ -385,6 +391,7 @@
 				ACF299A52C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A2572E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45752E6030F800E5E997 /* StateDemoViewTests.swift in Sources */,
+				ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A25D2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				AC33C6BE2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 			);
@@ -403,6 +410,7 @@
 				ACF299A22C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A2592E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
+				ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A25C2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				AC33C6BC2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 			);
