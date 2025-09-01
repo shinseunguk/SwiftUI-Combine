@@ -21,8 +21,7 @@ enum Constants {
         SectionData(title: "State & Data Flow", items: [
             "State 관리",
             "Binding",
-            "ObservedObject",
-            "StateObject",
+            "ObservedObject & StateObject",
             "EnvironmentObject",
             "Environment 값",
             "AppStorage",
@@ -81,9 +80,8 @@ struct ContentView: View {
         switch value {
         case "State 관리": StateDemoView()
         case "Binding": BindingDemoView()
-        case "ObservedObject": ObservedObjectDemoView()
-//        case "StateObject": StateObjectDemoView()
-//        case "EnvironmentObject": EnvironmentObjectDemoRoot()
+        case "ObservedObject & StateObject": ObservedObjectDemoView()
+        case "EnvironmentObject": EnvironmentObjectDemoRoot()
 //        case "Environment 값": EnvironmentValueDemoView()
 //        case "AppStorage": AppStorageDemoView()
 //        case "SceneStorage": SceneStorageDemoView()
