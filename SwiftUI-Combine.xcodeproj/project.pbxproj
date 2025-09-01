@@ -46,6 +46,9 @@
 		ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */; };
 		ACF3A2602E656BCF005CA854 /* AppStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */; };
 		ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */; };
+		ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */; };
+		ACF3A2642E657238005CA854 /* SceneStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */; };
+		ACF3A2652E657238005CA854 /* SceneStorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,7 @@
 		ACF3A2562E653051005CA854 /* EnvironmentObjectDemoRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectDemoRoot.swift; sourceTree = "<group>"; };
 		ACF3A25A2E655688005CA854 /* EnvironmentValueDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValueDemoView.swift; sourceTree = "<group>"; };
 		ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageDemoView.swift; sourceTree = "<group>"; };
+		ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 				ACF3A2562E653051005CA854 /* EnvironmentObjectDemoRoot.swift */,
 				ACF3A25A2E655688005CA854 /* EnvironmentValueDemoView.swift */,
 				ACF3A25E2E656BCF005CA854 /* AppStorageDemoView.swift */,
+				ACF3A2622E657238005CA854 /* SceneStorageDemoView.swift */,
 			);
 			path = "State & Data Flow";
 			sourceTree = "<group>";
@@ -374,6 +379,7 @@
 				ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF3A2602E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
+				ACF3A2652E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BD2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +399,7 @@
 				ACDE45752E6030F800E5E997 /* StateDemoViewTests.swift in Sources */,
 				ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A25D2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
+				ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BE2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +419,7 @@
 				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A25C2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
+				ACF3A2642E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BC2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
