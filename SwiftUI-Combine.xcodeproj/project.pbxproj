@@ -61,6 +61,9 @@
 		ACF3A2732E65907B005CA854 /* NamespaceDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2722E65907B005CA854 /* NamespaceDemoView.swift */; };
 		ACF3A2742E65907B005CA854 /* NamespaceDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2722E65907B005CA854 /* NamespaceDemoView.swift */; };
 		ACF3A2752E65907B005CA854 /* NamespaceDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2722E65907B005CA854 /* NamespaceDemoView.swift */; };
+		ACF3A2772E65930A005CA854 /* MainActorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2762E65930A005CA854 /* MainActorDemoView.swift */; };
+		ACF3A2782E65930A005CA854 /* MainActorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2762E65930A005CA854 /* MainActorDemoView.swift */; };
+		ACF3A2792E65930A005CA854 /* MainActorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2762E65930A005CA854 /* MainActorDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +110,7 @@
 		ACF3A26A2E658897005CA854 /* FocusStateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateDemoView.swift; sourceTree = "<group>"; };
 		ACF3A26E2E658E01005CA854 /* ScaledMetricDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledMetricDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2722E65907B005CA854 /* NamespaceDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamespaceDemoView.swift; sourceTree = "<group>"; };
+		ACF3A2762E65930A005CA854 /* MainActorDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 				ACF3A26A2E658897005CA854 /* FocusStateDemoView.swift */,
 				ACF3A26E2E658E01005CA854 /* ScaledMetricDemoView.swift */,
 				ACF3A2722E65907B005CA854 /* NamespaceDemoView.swift */,
+				ACF3A2762E65930A005CA854 /* MainActorDemoView.swift */,
 			);
 			path = "State & Data Flow";
 			sourceTree = "<group>";
@@ -404,6 +409,7 @@
 				ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A2652E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BD2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
+				ACF3A2782E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACF3A2742E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +434,7 @@
 				ACF3A25D2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BE2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
+				ACF3A2792E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACF3A2732E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +459,7 @@
 				ACF3A25C2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A2642E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BC2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
+				ACF3A2772E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACF3A2752E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

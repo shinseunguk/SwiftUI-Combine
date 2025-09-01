@@ -89,7 +89,7 @@ struct ContentView: View {
         case "FocusState": FocusStateDemoView()
         case "ScaledMetric": ScaledMetricDemoView()
         case "Namespace (matchedGeometryEffect)": NamespaceDemoView()
-//        case "MainActor": MainActorDemoView()
+        case "MainActor": MainActorDemoView()
 //        case "Observable (iOS 17+)": ObservableDemoView()
 //        case "Bindable (iOS 17+)": BindableDemoView()
 //        case "ViewBuilder": ViewBuilderDemoView()
