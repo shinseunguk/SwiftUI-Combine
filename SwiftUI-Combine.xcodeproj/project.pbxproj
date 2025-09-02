@@ -80,6 +80,8 @@
 		ACF3A2902E668EA6005CA854 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */; };
 		ACF3A2912E668EA6005CA854 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */; };
 		ACF3A2952E66A867005CA854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2942E66A867005CA854 /* AppDelegate.swift */; };
+		ACF3A2982E66B8E4005CA854 /* CLAUDE.md in Resources */ = {isa = PBXBuildFile; fileRef = ACF3A2962E66B8E4005CA854 /* CLAUDE.md */; };
+		ACF3A2992E66B8E4005CA854 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACF3A2972E66B8E4005CA854 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +135,8 @@
 		ACF3A2862E667E79005CA854 /* ToolbarBuilderDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarBuilderDemoView.swift; sourceTree = "<group>"; };
 		ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
 		ACF3A2942E66A867005CA854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACF3A2962E66B8E4005CA854 /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
+		ACF3A2972E66B8E4005CA854 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,8 @@
 		ACF299652C19939400DCFF27 = {
 			isa = PBXGroup;
 			children = (
+				ACF3A2962E66B8E4005CA854 /* CLAUDE.md */,
+				ACF3A2972E66B8E4005CA854 /* README.md */,
 				ACF299702C19939400DCFF27 /* SwiftUI-Combine */,
 				ACF299812C19939500DCFF27 /* SwiftUI-CombineTests */,
 				ACF2998B2C19939500DCFF27 /* SwiftUI-CombineUITests */,
@@ -396,6 +402,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF299792C19939500DCFF27 /* Preview Assets.xcassets in Resources */,
+				ACF3A2982E66B8E4005CA854 /* CLAUDE.md in Resources */,
+				ACF3A2992E66B8E4005CA854 /* README.md in Resources */,
 				ACF299762C19939500DCFF27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

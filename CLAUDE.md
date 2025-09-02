@@ -15,6 +15,7 @@ This is a SwiftUI + Combine study project for understanding reactive programming
 2. 커밋 메시지 형식: `<type>(<scope>)!: <subject>`
 3. 한글로 커밋
 4. 끝에 마침표 사용 안함
+5. **중요**: 커밋할 때마다 README.md 파일도 함께 업데이트하여 프로젝트 현황 반영
 
 ### 커밋 타입
 
