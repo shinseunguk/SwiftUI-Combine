@@ -41,14 +41,7 @@ enum Constants {
             "ToolbarContentBuilder",
         ]),
         SectionData(title: "데이터 스토어 연동", items: [
-            "FetchRequest (Core Data) - 코드 샘플",
-            "SectionedFetchRequest - 코드 샘플",
             "Query (SwiftData) - 코드 샘플"
-        ]),
-        SectionData(title: "앱/플랫폼 라이프사이클", items: [
-            "UIApplicationDelegateAdaptor - 코드 샘플",
-            "NSApplicationDelegateAdaptor - 코드 샘플",
-            "WKApplicationDelegateAdaptor - 코드 샘플"
         ]),
     ]
 }
@@ -93,8 +86,6 @@ struct ContentView: View {
         case "ViewBuilder": ViewBuilderDemoView()
         case "ToolbarContentBuilder": ToolbarBuilderDemoView()
         case "Query (SwiftData) - 코드 샘플": SwiftDataView().modelContainer(for: Todo.self)
-//        case "NSApplicationDelegateAdaptor - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.nsAppDelegateAdaptor)
-//        case "WKApplicationDelegateAdaptor - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.wkAppDelegateAdaptor)
         default:
             DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
