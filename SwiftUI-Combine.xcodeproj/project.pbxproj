@@ -76,6 +76,9 @@
 		ACF3A2872E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2862E667E79005CA854 /* ToolbarBuilderDemoView.swift */; };
 		ACF3A2882E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2862E667E79005CA854 /* ToolbarBuilderDemoView.swift */; };
 		ACF3A2892E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2862E667E79005CA854 /* ToolbarBuilderDemoView.swift */; };
+		ACF3A28F2E668EA6005CA854 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */; };
+		ACF3A2902E668EA6005CA854 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */; };
+		ACF3A2912E668EA6005CA854 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +130,7 @@
 		ACF3A27E2E667126005CA854 /* BindableDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2822E6674C0005CA854 /* ViewBuilderDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2862E667E79005CA854 /* ToolbarBuilderDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarBuilderDemoView.swift; sourceTree = "<group>"; };
+		ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 				ACF3A27E2E667126005CA854 /* BindableDemoView.swift */,
 				ACF3A2822E6674C0005CA854 /* ViewBuilderDemoView.swift */,
 				ACF3A2862E667E79005CA854 /* ToolbarBuilderDemoView.swift */,
+				ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */,
 			);
 			path = "State & Data Flow";
 			sourceTree = "<group>";
@@ -413,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF3A2912E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C02E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
 				ACF299A92C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF299742C19939400DCFF27 /* ContentView.swift in Sources */,
@@ -442,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF3A28F2E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C22E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
 				ACF299832C19939500DCFF27 /* SwiftUI_CombineTests.swift in Sources */,
 				ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */,
@@ -471,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF3A2902E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C12E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
 				ACF299AB2C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF2998F2C19939500DCFF27 /* SwiftUI_CombineUITestsLaunchTests.swift in Sources */,

@@ -39,7 +39,6 @@ enum Constants {
         SectionData(title: "Result Builders & UI 구성", items: [
             "ViewBuilder",
             "ToolbarContentBuilder",
-            "CommandsBuilder (macOS 코드 샘플)"
         ]),
         SectionData(title: "데이터 스토어 연동", items: [
             "FetchRequest (Core Data) - 코드 샘플",
@@ -93,10 +92,8 @@ struct ContentView: View {
         case "Bindable (iOS 17+)": BindableDemoView()
         case "ViewBuilder": ViewBuilderDemoView()
         case "ToolbarContentBuilder": ToolbarBuilderDemoView()
-//        case "CommandsBuilder (macOS 코드 샘플)": CodeSampleView(title: value, code: SampleCodes.commandsBuilder)
-//        case "FetchRequest (Core Data) - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.fetchRequest)
-//        case "SectionedFetchRequest - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.sectionedFetchRequest)
-//        case "Query (SwiftData) - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.swiftDataQuery)
+//        case "FetchRequest (Core Data) - 코드 샘플": UserListView()
+        case "Query (SwiftData) - 코드 샘플": SwiftDataView().modelContainer(for: Todo.self)
 //        case "UIApplicationDelegateAdaptor - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.uiAppDelegateAdaptor)
 //        case "NSApplicationDelegateAdaptor - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.nsAppDelegateAdaptor)
 //        case "WKApplicationDelegateAdaptor - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.wkAppDelegateAdaptor)
