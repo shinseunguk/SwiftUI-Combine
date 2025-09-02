@@ -79,6 +79,7 @@
 		ACF3A28F2E668EA6005CA854 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */; };
 		ACF3A2902E668EA6005CA854 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */; };
 		ACF3A2912E668EA6005CA854 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */; };
+		ACF3A2952E66A867005CA854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2942E66A867005CA854 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,7 @@
 		ACF3A2822E6674C0005CA854 /* ViewBuilderDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2862E667E79005CA854 /* ToolbarBuilderDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarBuilderDemoView.swift; sourceTree = "<group>"; };
 		ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
+		ACF3A2942E66A867005CA854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				ACF299712C19939400DCFF27 /* SwiftUI_CombineApp.swift */,
+				ACF3A2942E66A867005CA854 /* AppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF3A2952E66A867005CA854 /* AppDelegate.swift in Sources */,
 				ACF3A2912E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C02E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
 				ACF299A92C1ACB4400DCFF27 /* ViewModel.swift in Sources */,

@@ -92,9 +92,7 @@ struct ContentView: View {
         case "Bindable (iOS 17+)": BindableDemoView()
         case "ViewBuilder": ViewBuilderDemoView()
         case "ToolbarContentBuilder": ToolbarBuilderDemoView()
-//        case "FetchRequest (Core Data) - 코드 샘플": UserListView()
         case "Query (SwiftData) - 코드 샘플": SwiftDataView().modelContainer(for: Todo.self)
-//        case "UIApplicationDelegateAdaptor - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.uiAppDelegateAdaptor)
 //        case "NSApplicationDelegateAdaptor - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.nsAppDelegateAdaptor)
 //        case "WKApplicationDelegateAdaptor - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.wkAppDelegateAdaptor)
         default:
