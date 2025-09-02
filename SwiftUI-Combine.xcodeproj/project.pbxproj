@@ -64,6 +64,9 @@
 		ACF3A2772E65930A005CA854 /* MainActorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2762E65930A005CA854 /* MainActorDemoView.swift */; };
 		ACF3A2782E65930A005CA854 /* MainActorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2762E65930A005CA854 /* MainActorDemoView.swift */; };
 		ACF3A2792E65930A005CA854 /* MainActorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2762E65930A005CA854 /* MainActorDemoView.swift */; };
+		ACF3A27B2E666DB5005CA854 /* ObservableDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A27A2E666DB5005CA854 /* ObservableDemoView.swift */; };
+		ACF3A27C2E666DB5005CA854 /* ObservableDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A27A2E666DB5005CA854 /* ObservableDemoView.swift */; };
+		ACF3A27D2E666DB5005CA854 /* ObservableDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A27A2E666DB5005CA854 /* ObservableDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +114,7 @@
 		ACF3A26E2E658E01005CA854 /* ScaledMetricDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledMetricDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2722E65907B005CA854 /* NamespaceDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamespaceDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2762E65930A005CA854 /* MainActorDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorDemoView.swift; sourceTree = "<group>"; };
+		ACF3A27A2E666DB5005CA854 /* ObservableDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,7 @@
 				ACF3A26E2E658E01005CA854 /* ScaledMetricDemoView.swift */,
 				ACF3A2722E65907B005CA854 /* NamespaceDemoView.swift */,
 				ACF3A2762E65930A005CA854 /* MainActorDemoView.swift */,
+				ACF3A27A2E666DB5005CA854 /* ObservableDemoView.swift */,
 			);
 			path = "State & Data Flow";
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 				ACF299A02C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A26C2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
 				ACF3A2672E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
+				ACF3A27B2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
 				ACF3A2582E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF3A2602E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
@@ -428,6 +434,7 @@
 				ACF299A52C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A26B2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
 				ACF3A2682E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
+				ACF3A27C2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
 				ACF3A2572E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45752E6030F800E5E997 /* StateDemoViewTests.swift in Sources */,
 				ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
@@ -453,6 +460,7 @@
 				ACF299A22C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A26D2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
 				ACF3A2692E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
+				ACF3A27D2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
 				ACF3A2592E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,

@@ -90,7 +90,7 @@ struct ContentView: View {
         case "ScaledMetric": ScaledMetricDemoView()
         case "Namespace (matchedGeometryEffect)": NamespaceDemoView()
         case "MainActor": MainActorDemoView()
-//        case "Observable (iOS 17+)": ObservableDemoView()
+        case "Observable (iOS 17+)": ObservableDemoView()
 //        case "Bindable (iOS 17+)": BindableDemoView()
 //        case "ViewBuilder": ViewBuilderDemoView()
 //        case "SceneBuilder (코드 샘플)": CodeSampleView(title: value, code: SampleCodes.sceneBuilder)
