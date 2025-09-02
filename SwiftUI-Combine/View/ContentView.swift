@@ -92,7 +92,7 @@ struct ContentView: View {
         case "MainActor": MainActorDemoView()
         case "Observable (iOS 17+)": ObservableDemoView()
         case "Bindable (iOS 17+)": BindableDemoView()
-//        case "ViewBuilder": ViewBuilderDemoView()
+        case "ViewBuilder": ViewBuilderDemoView()
 //        case "SceneBuilder (코드 샘플)": CodeSampleView(title: value, code: SampleCodes.sceneBuilder)
 //        case "ToolbarContentBuilder": ToolbarBuilderDemoView()
 //        case "CommandsBuilder (macOS 코드 샘플)": CodeSampleView(title: value, code: SampleCodes.commandsBuilder)
