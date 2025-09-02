@@ -38,7 +38,6 @@ enum Constants {
         ]),
         SectionData(title: "Result Builders & UI 구성", items: [
             "ViewBuilder",
-            "SceneBuilder (코드 샘플)",
             "ToolbarContentBuilder",
             "CommandsBuilder (macOS 코드 샘플)"
         ]),
@@ -93,8 +92,7 @@ struct ContentView: View {
         case "Observable (iOS 17+)": ObservableDemoView()
         case "Bindable (iOS 17+)": BindableDemoView()
         case "ViewBuilder": ViewBuilderDemoView()
-//        case "SceneBuilder (코드 샘플)": CodeSampleView(title: value, code: SampleCodes.sceneBuilder)
-//        case "ToolbarContentBuilder": ToolbarBuilderDemoView()
+        case "ToolbarContentBuilder": ToolbarBuilderDemoView()
 //        case "CommandsBuilder (macOS 코드 샘플)": CodeSampleView(title: value, code: SampleCodes.commandsBuilder)
 //        case "FetchRequest (Core Data) - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.fetchRequest)
 //        case "SectionedFetchRequest - 코드 샘플": CodeSampleView(title: value, code: SampleCodes.sectionedFetchRequest)
