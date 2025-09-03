@@ -82,6 +82,9 @@
 		ACF3A2952E66A867005CA854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2942E66A867005CA854 /* AppDelegate.swift */; };
 		ACF3A2982E66B8E4005CA854 /* CLAUDE.md in Resources */ = {isa = PBXBuildFile; fileRef = ACF3A2962E66B8E4005CA854 /* CLAUDE.md */; };
 		ACF3A2992E66B8E4005CA854 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACF3A2972E66B8E4005CA854 /* README.md */; };
+		ACF3A29D2E66E81C005CA854 /* TextDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */; };
+		ACF3A29E2E66E81C005CA854 /* TextDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */; };
+		ACF3A29F2E66E81C005CA854 /* TextDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +140,7 @@
 		ACF3A2942E66A867005CA854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACF3A2962E66B8E4005CA854 /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
 		ACF3A2972E66B8E4005CA854 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +169,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ACDE456F2E6029C800E5E997 /* State & Data Flow */ = {
+		ACDE456F2E6029C800E5E997 /* Annotation */ = {
 			isa = PBXGroup;
 			children = (
 				ACDE45702E6029D400E5E997 /* StateDemoView.swift */,
@@ -187,7 +191,7 @@
 				ACF3A2862E667E79005CA854 /* ToolbarBuilderDemoView.swift */,
 				ACF3A28E2E668EA6005CA854 /* SwiftDataView.swift */,
 			);
-			path = "State & Data Flow";
+			path = Annotation;
 			sourceTree = "<group>";
 		};
 		ACF299652C19939400DCFF27 = {
@@ -254,7 +258,8 @@
 		ACF2999B2C1ABFDE00DCFF27 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ACDE456F2E6029C800E5E997 /* State & Data Flow */,
+				ACDE456F2E6029C800E5E997 /* Annotation */,
+				ACF3A29B2E66E809005CA854 /* View Modifier */,
 				ACF299732C19939400DCFF27 /* ContentView.swift */,
 				ACF2999F2C1AC12C00DCFF27 /* PublisherView.swift */,
 			);
@@ -292,6 +297,14 @@
 				ACF299A82C1ACB4400DCFF27 /* ViewModel.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		ACF3A29B2E66E809005CA854 /* View Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */,
+			);
+			path = "View Modifier";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,6 +461,7 @@
 				ACF3A2602E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A2812E667126005CA854 /* BindableDemoView.swift in Sources */,
 				ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
+				ACF3A29D2E66E81C005CA854 /* TextDemoView.swift in Sources */,
 				ACF3A2652E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BD2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2782E65930A005CA854 /* MainActorDemoView.swift in Sources */,
@@ -462,6 +476,7 @@
 			files = (
 				ACF3A28F2E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C22E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
+				ACF3A29E2E66E81C005CA854 /* TextDemoView.swift in Sources */,
 				ACF299832C19939500DCFF27 /* SwiftUI_CombineTests.swift in Sources */,
 				ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF299A12C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
@@ -492,6 +507,7 @@
 			files = (
 				ACF3A2902E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C12E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
+				ACF3A29F2E66E81C005CA854 /* TextDemoView.swift in Sources */,
 				ACF299AB2C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF2998F2C19939500DCFF27 /* SwiftUI_CombineUITestsLaunchTests.swift in Sources */,
 				ACF299A62C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
