@@ -94,6 +94,9 @@
 		ACF3A2A92E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */; };
 		ACF3A2AA2E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */; };
 		ACF3A2AB2E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */; };
+		ACF3A2AD2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */; };
+		ACF3A2AE2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */; };
+		ACF3A2AF2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +156,7 @@
 		ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupDemoView.swift; sourceTree = "<group>"; };
+		ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +322,7 @@
 				ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */,
 				ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */,
 				ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */,
+				ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -465,6 +470,7 @@
 				ACF3A2A12E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
 				ACF299A42C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A2532E652777005CA854 /* StateObjectDemoView.swift in Sources */,
+				ACF3A2AF2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACF3A2702E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF299722C19939400DCFF27 /* SwiftUI_CombineApp.swift in Sources */,
 				ACF3A2842E6674C0005CA854 /* ViewBuilderDemoView.swift in Sources */,
@@ -517,6 +523,7 @@
 				ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BE2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2792E65930A005CA854 /* MainActorDemoView.swift in Sources */,
+				ACF3A2AE2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACF3A2732E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2882E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
 			);
@@ -551,6 +558,7 @@
 				ACF3A2642E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BC2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2772E65930A005CA854 /* MainActorDemoView.swift in Sources */,
+				ACF3A2AD2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACF3A2752E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2872E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
 			);
