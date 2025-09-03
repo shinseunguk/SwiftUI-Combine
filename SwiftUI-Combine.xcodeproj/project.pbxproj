@@ -88,6 +88,9 @@
 		ACF3A2A12E680C5D005CA854 /* ButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */; };
 		ACF3A2A22E680C5D005CA854 /* ButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */; };
 		ACF3A2A32E680C5D005CA854 /* ButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */; };
+		ACF3A2A52E681EDB005CA854 /* EditButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */; };
+		ACF3A2A62E681EDB005CA854 /* EditButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */; };
+		ACF3A2A72E681EDB005CA854 /* EditButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +148,7 @@
 		ACF3A2972E66B8E4005CA854 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemoView.swift; sourceTree = "<group>"; };
+		ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +312,7 @@
 			children = (
 				ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */,
 				ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */,
+				ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */,
 			);
 			path = "View Modifier";
 			sourceTree = "<group>";
@@ -465,6 +470,7 @@
 				ACF3A2582E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF3A2602E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
+				ACF3A2A52E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
 				ACF3A2812E667126005CA854 /* BindableDemoView.swift in Sources */,
 				ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A29D2E66E81C005CA854 /* TextDemoView.swift in Sources */,
@@ -497,6 +503,7 @@
 				ACF3A2572E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45752E6030F800E5E997 /* StateDemoViewTests.swift in Sources */,
 				ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
+				ACF3A2A62E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
 				ACF3A2802E667126005CA854 /* BindableDemoView.swift in Sources */,
 				ACF3A2A32E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
 				ACF3A25D2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
@@ -529,6 +536,7 @@
 				ACF3A2592E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
+				ACF3A2A72E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
 				ACF3A27F2E667126005CA854 /* BindableDemoView.swift in Sources */,
 				ACF3A2A22E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
 				ACF3A25C2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,

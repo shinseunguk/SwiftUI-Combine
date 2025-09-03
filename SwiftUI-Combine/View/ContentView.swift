@@ -43,9 +43,10 @@ enum Constants {
         SectionData(title: "데이터 스토어 연동", items: [
             "Query (SwiftData) - 코드 샘플"
         ]),
-        SectionData(title: "View Modifier", items: [
+        SectionData(title: "UI & View Modifier", items: [
             "Text",
-            "Button"
+            "Button",
+            "Edit Button"
         ]),
     ]
 }
@@ -93,6 +94,7 @@ struct ContentView: View {
         
         case "Text": TextDemoView()
         case "Button": ButtonDemoView()
+        case "Edit Button": EditButtonDemoView()
         default:
             DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
