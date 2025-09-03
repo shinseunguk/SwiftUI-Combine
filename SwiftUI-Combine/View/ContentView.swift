@@ -47,6 +47,7 @@ enum Constants {
             "Text",
             "Button",
             "Color Picker",
+            "Date Picker",
             "Edit Button",
             "DisclosureGroup"
         ]),
@@ -97,6 +98,7 @@ struct ContentView: View {
         case "Text": TextDemoView()
         case "Button": ButtonDemoView()
         case "Color Picker": ColorPickerDemoView()
+        case "Date Picker": DatePickerDemoView()
         case "Edit Button": EditButtonDemoView()
         case "DisclosureGroup": DisclosureGroupDemoView()
         default:

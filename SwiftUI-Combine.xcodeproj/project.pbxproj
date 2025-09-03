@@ -97,6 +97,9 @@
 		ACF3A2AD2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */; };
 		ACF3A2AE2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */; };
 		ACF3A2AF2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */; };
+		ACF3A2B12E68307D005CA854 /* DatePickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2B02E68307D005CA854 /* DatePickerDemoView.swift */; };
+		ACF3A2B22E68307D005CA854 /* DatePickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2B02E68307D005CA854 /* DatePickerDemoView.swift */; };
+		ACF3A2B32E68307D005CA854 /* DatePickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2B02E68307D005CA854 /* DatePickerDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +160,7 @@
 		ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerDemoView.swift; sourceTree = "<group>"; };
+		ACF3A2B02E68307D005CA854 /* DatePickerDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +327,7 @@
 				ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */,
 				ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */,
 				ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */,
+				ACF3A2B02E68307D005CA854 /* DatePickerDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -463,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF3A2952E66A867005CA854 /* AppDelegate.swift in Sources */,
+				ACF3A2B22E68307D005CA854 /* DatePickerDemoView.swift in Sources */,
 				ACF3A2912E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C02E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
 				ACF299A92C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
@@ -509,6 +515,7 @@
 				ACF3A26F2E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF299AA2C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF3A2832E6674C0005CA854 /* ViewBuilderDemoView.swift in Sources */,
+				ACF3A2B32E68307D005CA854 /* DatePickerDemoView.swift in Sources */,
 				ACF299A52C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A26B2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
 				ACF3A2682E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
@@ -544,6 +551,7 @@
 				ACF3A2712E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF2998D2C19939500DCFF27 /* SwiftUI_CombineUITests.swift in Sources */,
 				ACF3A2852E6674C0005CA854 /* ViewBuilderDemoView.swift in Sources */,
+				ACF3A2B12E68307D005CA854 /* DatePickerDemoView.swift in Sources */,
 				ACF299A22C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A26D2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
 				ACF3A2692E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
