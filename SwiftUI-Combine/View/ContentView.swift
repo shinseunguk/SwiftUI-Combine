@@ -46,7 +46,8 @@ enum Constants {
         SectionData(title: "UI & View Modifier", items: [
             "Text",
             "Button",
-            "Edit Button"
+            "Edit Button",
+            "DisclosureGroup"
         ]),
     ]
 }
@@ -95,6 +96,7 @@ struct ContentView: View {
         case "Text": TextDemoView()
         case "Button": ButtonDemoView()
         case "Edit Button": EditButtonDemoView()
+        case "DisclosureGroup": DisclosureGroupDemoView()
         default:
             DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }

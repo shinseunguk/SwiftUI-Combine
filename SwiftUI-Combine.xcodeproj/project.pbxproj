@@ -91,6 +91,9 @@
 		ACF3A2A52E681EDB005CA854 /* EditButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */; };
 		ACF3A2A62E681EDB005CA854 /* EditButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */; };
 		ACF3A2A72E681EDB005CA854 /* EditButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */; };
+		ACF3A2A92E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */; };
+		ACF3A2AA2E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */; };
+		ACF3A2AB2E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +152,7 @@
 		ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonDemoView.swift; sourceTree = "<group>"; };
+		ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,7 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				ACDE456F2E6029C800E5E997 /* Annotation */,
-				ACF3A29B2E66E809005CA854 /* View Modifier */,
+				ACF3A29B2E66E809005CA854 /* UI & View Modifier */,
 				ACF299732C19939400DCFF27 /* ContentView.swift */,
 				ACF2999F2C1AC12C00DCFF27 /* PublisherView.swift */,
 			);
@@ -307,14 +311,15 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
-		ACF3A29B2E66E809005CA854 /* View Modifier */ = {
+		ACF3A29B2E66E809005CA854 /* UI & View Modifier */ = {
 			isa = PBXGroup;
 			children = (
 				ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */,
 				ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */,
 				ACF3A2A42E681EDB005CA854 /* EditButtonDemoView.swift */,
+				ACF3A2A82E6821DD005CA854 /* DisclosureGroupDemoView.swift */,
 			);
-			path = "View Modifier";
+			path = "UI & View Modifier";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,6 +483,7 @@
 				AC33C6BD2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2782E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACF3A2742E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
+				ACF3A2A92E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */,
 				ACF3A2892E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF3A2AA2E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */,
 				ACF3A28F2E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C22E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
 				ACF3A29E2E66E81C005CA854 /* TextDemoView.swift in Sources */,
@@ -519,6 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF3A2AB2E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */,
 				ACF3A2902E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C12E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
 				ACF3A29F2E66E81C005CA854 /* TextDemoView.swift in Sources */,
