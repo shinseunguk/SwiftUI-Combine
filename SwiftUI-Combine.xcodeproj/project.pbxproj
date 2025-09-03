@@ -85,6 +85,9 @@
 		ACF3A29D2E66E81C005CA854 /* TextDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */; };
 		ACF3A29E2E66E81C005CA854 /* TextDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */; };
 		ACF3A29F2E66E81C005CA854 /* TextDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */; };
+		ACF3A2A12E680C5D005CA854 /* ButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */; };
+		ACF3A2A22E680C5D005CA854 /* ButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */; };
+		ACF3A2A32E680C5D005CA854 /* ButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +144,7 @@
 		ACF3A2962E66B8E4005CA854 /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
 		ACF3A2972E66B8E4005CA854 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemoView.swift; sourceTree = "<group>"; };
+		ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				ACF3A29C2E66E81C005CA854 /* TextDemoView.swift */,
+				ACF3A2A02E680C5D005CA854 /* ButtonDemoView.swift */,
 			);
 			path = "View Modifier";
 			sourceTree = "<group>";
@@ -447,6 +452,7 @@
 				AC33C6C02E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
 				ACF299A92C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF299742C19939400DCFF27 /* ContentView.swift in Sources */,
+				ACF3A2A12E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
 				ACF299A42C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A2532E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACF3A2702E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
@@ -492,6 +498,7 @@
 				ACDE45752E6030F800E5E997 /* StateDemoViewTests.swift in Sources */,
 				ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A2802E667126005CA854 /* BindableDemoView.swift in Sources */,
+				ACF3A2A32E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
 				ACF3A25D2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BE2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
@@ -523,6 +530,7 @@
 				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A27F2E667126005CA854 /* BindableDemoView.swift in Sources */,
+				ACF3A2A22E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
 				ACF3A25C2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A2642E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BC2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
