@@ -55,7 +55,8 @@ enum Constants {
             "Group Box",
             "Label",
             "LabeledContent",
-            "Link"
+            "Link",
+            "List",
         ]),
     ]
 }
@@ -113,6 +114,7 @@ struct ContentView: View {
             case "Label": LabelDemoView()
             case "LabeledContent": LabeledContentDemoView()
             case "Link": LinkDemoView()
+            case "List": ListDemoView()
             default:
                 DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
