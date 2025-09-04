@@ -13,6 +13,9 @@
 		AC33C6C02E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33C6BF2E61762500CBCBA4 /* ObservedObjectDemoView.swift */; };
 		AC33C6C12E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33C6BF2E61762500CBCBA4 /* ObservedObjectDemoView.swift */; };
 		AC33C6C22E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33C6BF2E61762500CBCBA4 /* ObservedObjectDemoView.swift */; };
+		ACBC21E52E694A5C00A08ADE /* GaugeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */; };
+		ACBC21E62E694A5C00A08ADE /* GaugeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */; };
+		ACBC21E72E694A5C00A08ADE /* GaugeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */; };
 		ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
@@ -125,6 +128,7 @@
 /* Begin PBXFileReference section */
 		AC33C6BB2E6171ED00CBCBA4 /* BindingDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingDemoView.swift; sourceTree = "<group>"; };
 		AC33C6BF2E61762500CBCBA4 /* ObservedObjectDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectDemoView.swift; sourceTree = "<group>"; };
+		ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeDemoView.swift; sourceTree = "<group>"; };
 		ACDE45702E6029D400E5E997 /* StateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoView.swift; sourceTree = "<group>"; };
 		ACDE45742E6030F800E5E997 /* StateDemoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoViewTests.swift; sourceTree = "<group>"; };
 		ACF2996E2C19939400DCFF27 /* SwiftUI-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -333,6 +337,7 @@
 				ACF3A2AC2E68267B005CA854 /* ColorPickerDemoView.swift */,
 				ACF3A2B02E68307D005CA854 /* DatePickerDemoView.swift */,
 				ACF3A2B42E683722005CA854 /* FormDemoView.swift */,
+				ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -495,6 +500,7 @@
 				ACF3A2602E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A2A52E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
 				ACF3A2812E667126005CA854 /* BindableDemoView.swift in Sources */,
+				ACBC21E72E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
 				ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A29D2E66E81C005CA854 /* TextDemoView.swift in Sources */,
 				ACF3A2652E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
@@ -529,6 +535,7 @@
 				ACF3A27C2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
 				ACF3A2572E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45752E6030F800E5E997 /* StateDemoViewTests.swift in Sources */,
+				ACBC21E62E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
 				ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A2A62E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
 				ACF3A2802E667126005CA854 /* BindableDemoView.swift in Sources */,
@@ -566,6 +573,7 @@
 				ACF3A27D2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
 				ACF3A2592E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
+				ACBC21E52E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
 				ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACF3A2A72E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
 				ACF3A27F2E667126005CA854 /* BindableDemoView.swift in Sources */,
