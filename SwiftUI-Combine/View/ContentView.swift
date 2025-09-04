@@ -57,6 +57,7 @@ enum Constants {
             "LabeledContent",
             "Link",
             "List",
+            "Menu",
         ]),
     ]
 }
@@ -115,6 +116,7 @@ struct ContentView: View {
             case "LabeledContent": LabeledContentDemoView()
             case "Link": LinkDemoView()
             case "List": ListDemoView()
+            case "Menu": MenuDemoView()
             default:
                 DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
