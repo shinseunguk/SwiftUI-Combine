@@ -22,6 +22,9 @@
 		ACBC21ED2E69520C00A08ADE /* LabelDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21EC2E69520C00A08ADE /* LabelDemoView.swift */; };
 		ACBC21EE2E69520C00A08ADE /* LabelDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21EC2E69520C00A08ADE /* LabelDemoView.swift */; };
 		ACBC21EF2E69520C00A08ADE /* LabelDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21EC2E69520C00A08ADE /* LabelDemoView.swift */; };
+		ACBC21F12E6953A300A08ADE /* LabeledContentDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21F02E6953A300A08ADE /* LabeledContentDemoView.swift */; };
+		ACBC21F22E6953A300A08ADE /* LabeledContentDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21F02E6953A300A08ADE /* LabeledContentDemoView.swift */; };
+		ACBC21F32E6953A300A08ADE /* LabeledContentDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21F02E6953A300A08ADE /* LabeledContentDemoView.swift */; };
 		ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
@@ -137,6 +140,7 @@
 		ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeDemoView.swift; sourceTree = "<group>"; };
 		ACBC21E82E694DE400A08ADE /* GroupBoxDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxDemoView.swift; sourceTree = "<group>"; };
 		ACBC21EC2E69520C00A08ADE /* LabelDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDemoView.swift; sourceTree = "<group>"; };
+		ACBC21F02E6953A300A08ADE /* LabeledContentDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledContentDemoView.swift; sourceTree = "<group>"; };
 		ACDE45702E6029D400E5E997 /* StateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoView.swift; sourceTree = "<group>"; };
 		ACDE45742E6030F800E5E997 /* StateDemoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoViewTests.swift; sourceTree = "<group>"; };
 		ACF2996E2C19939400DCFF27 /* SwiftUI-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -348,6 +352,7 @@
 				ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */,
 				ACBC21E82E694DE400A08ADE /* GroupBoxDemoView.swift */,
 				ACBC21EC2E69520C00A08ADE /* LabelDemoView.swift */,
+				ACBC21F02E6953A300A08ADE /* LabeledContentDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -500,6 +505,7 @@
 				ACF3A2AF2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACF3A2702E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF299722C19939400DCFF27 /* SwiftUI_CombineApp.swift in Sources */,
+				ACBC21F12E6953A300A08ADE /* LabeledContentDemoView.swift in Sources */,
 				ACF3A2842E6674C0005CA854 /* ViewBuilderDemoView.swift in Sources */,
 				ACF299A02C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A26C2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
@@ -561,6 +567,7 @@
 				ACF3A2AE2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACF3A2732E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2882E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
+				ACBC21F22E6953A300A08ADE /* LabeledContentDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +608,7 @@
 				ACF3A2AD2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACF3A2752E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2872E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
+				ACBC21F32E6953A300A08ADE /* LabeledContentDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
