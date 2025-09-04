@@ -58,6 +58,7 @@ enum Constants {
             "Link",
             "List",
             "Menu",
+            "Multi Date Picker"
         ]),
     ]
 }
@@ -85,40 +86,40 @@ struct ContentView: View {
     @ViewBuilder
     private func destinationView(for value: String) -> some View {
         switch value {
-            case "State 관리": StateDemoView()
-            case "Binding": BindingDemoView()
-            case "ObservedObject & StateObject": ObservedObjectDemoView()
-            case "EnvironmentObject": EnvironmentObjectDemoRoot()
-            case "Environment 값": EnvironmentValueDemoView()
-            case "AppStorage": AppStorageDemoView()
-            case "SceneStorage": SceneStorageDemoView()
-            case "GestureState": GestureStateDemoView()
-            case "FocusState": FocusStateDemoView()
-            case "ScaledMetric": ScaledMetricDemoView()
-            case "Namespace (matchedGeometryEffect)": NamespaceDemoView()
-            case "MainActor": MainActorDemoView()
-            case "Observable (iOS 17+)": ObservableDemoView()
-            case "Bindable (iOS 17+)": BindableDemoView()
-            case "ViewBuilder": ViewBuilderDemoView()
-            case "ToolbarContentBuilder": ToolbarBuilderDemoView()
-            case "Query (SwiftData) - 코드 샘플": SwiftDataView().modelContainer(for: Todo.self)
-            
-            case "Text": TextDemoView()
-            case "Button": ButtonDemoView()
-            case "Color Picker": ColorPickerDemoView()
-            case "Date Picker": DatePickerDemoView()
-            case "Edit Button": EditButtonDemoView()
-            case "DisclosureGroup": DisclosureGroupDemoView()
-            case "Form": FormDemoView()
-            case "Gauge": GaugeDemoView()
-            case "Group Box": FormAndGroupBoxDemoView()
-            case "Label": LabelDemoView()
-            case "LabeledContent": LabeledContentDemoView()
-            case "Link": LinkDemoView()
-            case "List": ListDemoView()
-            case "Menu": MenuDemoView()
-            default:
-                DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
+        case "State 관리": StateDemoView()
+        case "Binding": BindingDemoView()
+        case "ObservedObject & StateObject": ObservedObjectDemoView()
+        case "EnvironmentObject": EnvironmentObjectDemoRoot()
+        case "Environment 값": EnvironmentValueDemoView()
+        case "AppStorage": AppStorageDemoView()
+        case "SceneStorage": SceneStorageDemoView()
+        case "GestureState": GestureStateDemoView()
+        case "FocusState": FocusStateDemoView()
+        case "ScaledMetric": ScaledMetricDemoView()
+        case "Namespace (matchedGeometryEffect)": NamespaceDemoView()
+        case "MainActor": MainActorDemoView()
+        case "Observable (iOS 17+)": ObservableDemoView()
+        case "Bindable (iOS 17+)": BindableDemoView()
+        case "ViewBuilder": ViewBuilderDemoView()
+        case "ToolbarContentBuilder": ToolbarBuilderDemoView()
+        case "Query (SwiftData) - 코드 샘플": SwiftDataView().modelContainer(for: Todo.self)
+        
+        case "Text": TextDemoView()
+        case "Button": ButtonDemoView()
+        case "Color Picker": ColorPickerDemoView()
+        case "Date Picker": DatePickerDemoView()
+        case "Edit Button": EditButtonDemoView()
+        case "DisclosureGroup": DisclosureGroupDemoView()
+        case "Form": FormDemoView()
+        case "Gauge": GaugeDemoView()
+        case "Group Box": FormAndGroupBoxDemoView()
+        case "Label": LabelDemoView()
+        case "LabeledContent": LabeledContentDemoView()
+        case "Link": LinkDemoView()
+        case "List": ListDemoView()
+        case "Menu": MenuDemoView()
+        case "Multi Date Picker": MultiDatePickerDemoView()
+        default: DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
     }
 }
