@@ -51,7 +51,8 @@ enum Constants {
             "Edit Button",
             "DisclosureGroup",
             "Form",
-            "Gauge"
+            "Gauge",
+            "Group Box"
         ]),
     ]
 }
@@ -105,6 +106,7 @@ struct ContentView: View {
             case "DisclosureGroup": DisclosureGroupDemoView()
             case "Form": FormDemoView()
             case "Gauge": GaugeDemoView()
+            case "Group Box": FormAndGroupBoxDemoView()
             default:
                 DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }

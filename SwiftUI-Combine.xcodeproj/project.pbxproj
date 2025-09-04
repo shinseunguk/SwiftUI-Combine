@@ -16,6 +16,9 @@
 		ACBC21E52E694A5C00A08ADE /* GaugeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */; };
 		ACBC21E62E694A5C00A08ADE /* GaugeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */; };
 		ACBC21E72E694A5C00A08ADE /* GaugeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */; };
+		ACBC21E92E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E82E694DE400A08ADE /* GroupBoxDemoView.swift */; };
+		ACBC21EA2E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E82E694DE400A08ADE /* GroupBoxDemoView.swift */; };
+		ACBC21EB2E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E82E694DE400A08ADE /* GroupBoxDemoView.swift */; };
 		ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
@@ -129,6 +132,7 @@
 		AC33C6BB2E6171ED00CBCBA4 /* BindingDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingDemoView.swift; sourceTree = "<group>"; };
 		AC33C6BF2E61762500CBCBA4 /* ObservedObjectDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectDemoView.swift; sourceTree = "<group>"; };
 		ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeDemoView.swift; sourceTree = "<group>"; };
+		ACBC21E82E694DE400A08ADE /* GroupBoxDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxDemoView.swift; sourceTree = "<group>"; };
 		ACDE45702E6029D400E5E997 /* StateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoView.swift; sourceTree = "<group>"; };
 		ACDE45742E6030F800E5E997 /* StateDemoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoViewTests.swift; sourceTree = "<group>"; };
 		ACF2996E2C19939400DCFF27 /* SwiftUI-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -338,6 +342,7 @@
 				ACF3A2B02E68307D005CA854 /* DatePickerDemoView.swift */,
 				ACF3A2B42E683722005CA854 /* FormDemoView.swift */,
 				ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */,
+				ACBC21E82E694DE400A08ADE /* GroupBoxDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -484,6 +489,7 @@
 				ACF299A92C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF299742C19939400DCFF27 /* ContentView.swift in Sources */,
 				ACF3A2A12E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
+				ACBC21EB2E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */,
 				ACF299A42C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A2532E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACF3A2AF2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
@@ -523,6 +529,7 @@
 				ACF299832C19939500DCFF27 /* SwiftUI_CombineTests.swift in Sources */,
 				ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACF299A12C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
+				ACBC21EA2E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */,
 				ACF3A2552E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACF3A26F2E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF299AA2C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
@@ -561,6 +568,7 @@
 				ACF299AB2C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF2998F2C19939500DCFF27 /* SwiftUI_CombineUITestsLaunchTests.swift in Sources */,
 				ACF299A62C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
+				ACBC21E92E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */,
 				ACF3A2542E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACF3A2712E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF2998D2C19939500DCFF27 /* SwiftUI_CombineUITests.swift in Sources */,
