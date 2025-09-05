@@ -40,6 +40,9 @@
 		ACBC22052E69841E00A08ADE /* NavigationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */; };
 		ACBC22062E69841E00A08ADE /* NavigationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */; };
 		ACBC22072E69841E00A08ADE /* NavigationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */; };
+		ACBC22092E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22082E6AC69C00A08ADE /* NavigationSplitDemoView.swift */; };
+		ACBC220A2E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22082E6AC69C00A08ADE /* NavigationSplitDemoView.swift */; };
+		ACBC220B2E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22082E6AC69C00A08ADE /* NavigationSplitDemoView.swift */; };
 		ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
@@ -161,6 +164,7 @@
 		ACBC21FC2E696A1000A08ADE /* MenuDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDemoView.swift; sourceTree = "<group>"; };
 		ACBC22002E696C7C00A08ADE /* MultiDatePickerDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerDemoView.swift; sourceTree = "<group>"; };
 		ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoView.swift; sourceTree = "<group>"; };
+		ACBC22082E6AC69C00A08ADE /* NavigationSplitDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitDemoView.swift; sourceTree = "<group>"; };
 		ACDE45702E6029D400E5E997 /* StateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoView.swift; sourceTree = "<group>"; };
 		ACDE45742E6030F800E5E997 /* StateDemoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoViewTests.swift; sourceTree = "<group>"; };
 		ACF2996E2C19939400DCFF27 /* SwiftUI-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -378,6 +382,7 @@
 				ACBC21F82E695B7200A08ADE /* ListDemoView.swift */,
 				ACBC21FC2E696A1000A08ADE /* MenuDemoView.swift */,
 				ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */,
+				ACBC22082E6AC69C00A08ADE /* NavigationSplitDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -551,6 +556,7 @@
 				ACBC21E72E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
 				ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A29D2E66E81C005CA854 /* TextDemoView.swift in Sources */,
+				ACBC220B2E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */,
 				ACF3A2652E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BD2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2782E65930A005CA854 /* MainActorDemoView.swift in Sources */,
@@ -600,6 +606,7 @@
 				ACF3A2792E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACBC22062E69841E00A08ADE /* NavigationDemoView.swift in Sources */,
 				ACF3A2AE2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
+				ACBC220A2E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */,
 				ACF3A2732E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2882E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
 				ACBC21F22E6953A300A08ADE /* LabeledContentDemoView.swift in Sources */,
@@ -646,6 +653,7 @@
 				ACF3A2772E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACBC22072E69841E00A08ADE /* NavigationDemoView.swift in Sources */,
 				ACF3A2AD2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
+				ACBC22092E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */,
 				ACF3A2752E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2872E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
 				ACBC21F32E6953A300A08ADE /* LabeledContentDemoView.swift in Sources */,
