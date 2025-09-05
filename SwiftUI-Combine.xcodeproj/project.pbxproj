@@ -46,6 +46,9 @@
 		ACBC220D2E6AC88000A08ADE /* OutlineGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC220C2E6AC88000A08ADE /* OutlineGroupDemoView.swift */; };
 		ACBC220E2E6AC88000A08ADE /* OutlineGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC220C2E6AC88000A08ADE /* OutlineGroupDemoView.swift */; };
 		ACBC220F2E6AC88000A08ADE /* OutlineGroupDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC220C2E6AC88000A08ADE /* OutlineGroupDemoView.swift */; };
+		ACBC22112E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */; };
+		ACBC22122E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */; };
+		ACBC22132E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */; };
 		ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
@@ -169,6 +172,7 @@
 		ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoView.swift; sourceTree = "<group>"; };
 		ACBC22082E6AC69C00A08ADE /* NavigationSplitDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitDemoView.swift; sourceTree = "<group>"; };
 		ACBC220C2E6AC88000A08ADE /* OutlineGroupDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupDemoView.swift; sourceTree = "<group>"; };
+		ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastButtonDemoView.swift; sourceTree = "<group>"; };
 		ACDE45702E6029D400E5E997 /* StateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoView.swift; sourceTree = "<group>"; };
 		ACDE45742E6030F800E5E997 /* StateDemoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoViewTests.swift; sourceTree = "<group>"; };
 		ACF2996E2C19939400DCFF27 /* SwiftUI-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -388,6 +392,7 @@
 				ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */,
 				ACBC22082E6AC69C00A08ADE /* NavigationSplitDemoView.swift */,
 				ACBC220C2E6AC88000A08ADE /* OutlineGroupDemoView.swift */,
+				ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -565,6 +570,7 @@
 				ACBC220B2E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */,
 				ACF3A2652E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				AC33C6BD2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
+				ACBC22122E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
 				ACF3A2782E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACF3A2742E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2A92E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */,
@@ -609,6 +615,7 @@
 				ACF3A25D2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				ACBC21FE2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
+				ACBC22112E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
 				AC33C6BE2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2792E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACBC22062E69841E00A08ADE /* NavigationDemoView.swift in Sources */,
@@ -657,6 +664,7 @@
 				ACF3A25C2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A2642E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				ACBC21FD2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
+				ACBC22132E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
 				AC33C6BC2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2772E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACBC22072E69841E00A08ADE /* NavigationDemoView.swift in Sources */,
