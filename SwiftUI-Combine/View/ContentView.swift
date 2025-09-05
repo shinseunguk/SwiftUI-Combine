@@ -58,7 +58,8 @@ enum Constants {
             "Link",
             "List",
             "Menu",
-            "Multi Date Picker"
+            "Multi Date Picker",
+            "Navigation Link"
         ]),
     ]
 }
@@ -119,6 +120,7 @@ struct ContentView: View {
         case "List": ListDemoView()
         case "Menu": MenuDemoView()
         case "Multi Date Picker": MultiDatePickerDemoView()
+        case "Navigation Link": NavigationDemoView()
         default: DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
     }

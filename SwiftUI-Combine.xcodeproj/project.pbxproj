@@ -37,6 +37,9 @@
 		ACBC22012E696C7C00A08ADE /* MultiDatePickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22002E696C7C00A08ADE /* MultiDatePickerDemoView.swift */; };
 		ACBC22022E696C7C00A08ADE /* MultiDatePickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22002E696C7C00A08ADE /* MultiDatePickerDemoView.swift */; };
 		ACBC22032E696C7C00A08ADE /* MultiDatePickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22002E696C7C00A08ADE /* MultiDatePickerDemoView.swift */; };
+		ACBC22052E69841E00A08ADE /* NavigationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */; };
+		ACBC22062E69841E00A08ADE /* NavigationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */; };
+		ACBC22072E69841E00A08ADE /* NavigationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */; };
 		ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
@@ -157,6 +160,7 @@
 		ACBC21F82E695B7200A08ADE /* ListDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemoView.swift; sourceTree = "<group>"; };
 		ACBC21FC2E696A1000A08ADE /* MenuDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDemoView.swift; sourceTree = "<group>"; };
 		ACBC22002E696C7C00A08ADE /* MultiDatePickerDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerDemoView.swift; sourceTree = "<group>"; };
+		ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoView.swift; sourceTree = "<group>"; };
 		ACDE45702E6029D400E5E997 /* StateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoView.swift; sourceTree = "<group>"; };
 		ACDE45742E6030F800E5E997 /* StateDemoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoViewTests.swift; sourceTree = "<group>"; };
 		ACF2996E2C19939400DCFF27 /* SwiftUI-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -373,6 +377,7 @@
 				ACBC21F42E69569900A08ADE /* LinkDemoView.swift */,
 				ACBC21F82E695B7200A08ADE /* ListDemoView.swift */,
 				ACBC21FC2E696A1000A08ADE /* MenuDemoView.swift */,
+				ACBC22042E69841E00A08ADE /* NavigationDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -523,6 +528,7 @@
 				ACBC21EB2E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */,
 				ACF299A42C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A2532E652777005CA854 /* StateObjectDemoView.swift in Sources */,
+				ACBC22052E69841E00A08ADE /* NavigationDemoView.swift in Sources */,
 				ACF3A2AF2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACF3A2702E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF299722C19939400DCFF27 /* SwiftUI_CombineApp.swift in Sources */,
@@ -592,6 +598,7 @@
 				ACBC21FE2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
 				AC33C6BE2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2792E65930A005CA854 /* MainActorDemoView.swift in Sources */,
+				ACBC22062E69841E00A08ADE /* NavigationDemoView.swift in Sources */,
 				ACF3A2AE2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACF3A2732E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2882E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
@@ -637,6 +644,7 @@
 				ACBC21FD2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
 				AC33C6BC2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2772E65930A005CA854 /* MainActorDemoView.swift in Sources */,
+				ACBC22072E69841E00A08ADE /* NavigationDemoView.swift in Sources */,
 				ACF3A2AD2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACF3A2752E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2872E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
