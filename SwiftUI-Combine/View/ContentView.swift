@@ -63,7 +63,8 @@ enum Constants {
             "Navigation Split View",
             "Outline Group",
             "Paste Button",
-            "Picker"
+            "Picker",
+            "ProgressView",
         ]),
     ]
 }
@@ -129,6 +130,7 @@ struct ContentView: View {
         case "Outline Group": OutlineGroupDemoView()
         case "Paste Button": PastButtonDemoView()
         case "Picker": PickerDemoView()
+        case "ProgressView": ProgressDemoView()
         default: DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
     }
