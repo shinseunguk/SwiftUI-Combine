@@ -178,6 +178,9 @@
 		ACFB68E92E6ECBDE00371514 /* TextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68E82E6ECBDE00371514 /* TextFieldDemoView.swift */; };
 		ACFB68EA2E6ECBDE00371514 /* TextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68E82E6ECBDE00371514 /* TextFieldDemoView.swift */; };
 		ACFB68EB2E6ECBDE00371514 /* TextFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68E82E6ECBDE00371514 /* TextFieldDemoView.swift */; };
+		ACFB68ED2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */; };
+		ACFB68EE2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */; };
+		ACFB68EF2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -265,6 +268,7 @@
 		ACFB68DC2E6E79EA00371514 /* TabViewDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemoView.swift; sourceTree = "<group>"; };
 		ACFB68E42E6ECABF00371514 /* TextEditorDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorDemoView.swift; sourceTree = "<group>"; };
 		ACFB68E82E6ECBDE00371514 /* TextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemoView.swift; sourceTree = "<group>"; };
+		ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,6 +462,7 @@
 				ACFB68DC2E6E79EA00371514 /* TabViewDemoView.swift */,
 				ACFB68E42E6ECABF00371514 /* TextEditorDemoView.swift */,
 				ACFB68E82E6ECBDE00371514 /* TextFieldDemoView.swift */,
+				ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -649,6 +654,7 @@
 				ACFB68D62E6E762500371514 /* SliderDemoView.swift in Sources */,
 				ACBC22122E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
 				ACFB68DB2E6E785800371514 /* StepperDemoView.swift in Sources */,
+				ACFB68EE2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */,
 				ACF3A2782E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACF3A2742E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2A92E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */,
@@ -669,6 +675,7 @@
 				ACF299A12C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACBC21EA2E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */,
 				ACFB68DF2E6E79EA00371514 /* TabViewDemoView.swift in Sources */,
+				ACFB68EF2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */,
 				ACF3A2552E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACFB68BD2E6E676100371514 /* ScrollViewDemoView.swift in Sources */,
 				ACBC21FA2E695B7200A08ADE /* ListDemoView.swift in Sources */,
@@ -731,6 +738,7 @@
 				ACF299A62C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACBC21E92E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */,
 				ACFB68DD2E6E79EA00371514 /* TabViewDemoView.swift in Sources */,
+				ACFB68ED2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */,
 				ACF3A2542E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACFB68BF2E6E676100371514 /* ScrollViewDemoView.swift in Sources */,
 				ACBC21FB2E695B7200A08ADE /* ListDemoView.swift in Sources */,
