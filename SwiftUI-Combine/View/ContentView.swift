@@ -44,7 +44,6 @@ enum Constants {
             "Query (SwiftData) - 코드 샘플"
         ]),
         SectionData(title: "UI & View Modifier", items: [
-            "Text",
             "Button",
             "Color Picker",
             "Date Picker",
@@ -73,6 +72,12 @@ enum Constants {
             "Sign In With Apple Button",
             "Slider",
             "Stepper",
+            "TabView",
+            "Table",
+            "Text",
+            "Text Editor",
+            "Text Field",
+            "Toggle",
         ]),
     ]
 }
@@ -147,6 +152,7 @@ struct ContentView: View {
         case "Sign In With Apple Button": SignInWithAppleButtonDemoView()
         case "Slider": SliderDemoView()
         case "Stepper": StepperDemoView()
+        case "TabView": TabViewDemoView()
             
         default: DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
