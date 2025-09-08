@@ -166,6 +166,9 @@
 		ACFB68D52E6E762500371514 /* SliderDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68D42E6E762500371514 /* SliderDemoView.swift */; };
 		ACFB68D62E6E762500371514 /* SliderDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68D42E6E762500371514 /* SliderDemoView.swift */; };
 		ACFB68D72E6E762500371514 /* SliderDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68D42E6E762500371514 /* SliderDemoView.swift */; };
+		ACFB68D92E6E785800371514 /* StepperDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68D82E6E785800371514 /* StepperDemoView.swift */; };
+		ACFB68DA2E6E785800371514 /* StepperDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68D82E6E785800371514 /* StepperDemoView.swift */; };
+		ACFB68DB2E6E785800371514 /* StepperDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68D82E6E785800371514 /* StepperDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -249,6 +252,7 @@
 		ACFB68CC2E6E6F8700371514 /* ShareLinkDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkDemoView.swift; sourceTree = "<group>"; };
 		ACFB68D02E6E750D00371514 /* SignInWithAppleButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonDemoView.swift; sourceTree = "<group>"; };
 		ACFB68D42E6E762500371514 /* SliderDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderDemoView.swift; sourceTree = "<group>"; };
+		ACFB68D82E6E785800371514 /* StepperDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,6 +442,7 @@
 				ACFB68CC2E6E6F8700371514 /* ShareLinkDemoView.swift */,
 				ACFB68D02E6E750D00371514 /* SignInWithAppleButtonDemoView.swift */,
 				ACFB68D42E6E762500371514 /* SliderDemoView.swift */,
+				ACFB68D82E6E785800371514 /* StepperDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -625,6 +630,7 @@
 				AC33C6BD2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACFB68D62E6E762500371514 /* SliderDemoView.swift in Sources */,
 				ACBC22122E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
+				ACFB68DB2E6E785800371514 /* StepperDemoView.swift in Sources */,
 				ACF3A2782E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACF3A2742E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2A92E6821DD005CA854 /* DisclosureGroupDemoView.swift in Sources */,
@@ -663,6 +669,7 @@
 				ACDE45752E6030F800E5E997 /* StateDemoViewTests.swift in Sources */,
 				ACBC21E62E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
 				ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
+				ACFB68D92E6E785800371514 /* StepperDemoView.swift in Sources */,
 				ACF3A2A62E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
 				ACFB68D52E6E762500371514 /* SliderDemoView.swift in Sources */,
 				ACBC22022E696C7C00A08ADE /* MultiDatePickerDemoView.swift in Sources */,
@@ -721,6 +728,7 @@
 				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACBC21E52E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
 				ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
+				ACFB68DA2E6E785800371514 /* StepperDemoView.swift in Sources */,
 				ACF3A2A72E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
 				ACFB68D72E6E762500371514 /* SliderDemoView.swift in Sources */,
 				ACBC22032E696C7C00A08ADE /* MultiDatePickerDemoView.swift in Sources */,
