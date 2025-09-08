@@ -123,7 +123,6 @@ struct ContentView: View {
         case "ToolbarContentBuilder": ToolbarBuilderDemoView()
         case "Query (SwiftData) - 코드 샘플": SwiftDataView().modelContainer(for: Todo.self)
         
-        case "Text": TextDemoView()
         case "Button": ButtonDemoView()
         case "Color Picker": ColorPickerDemoView()
         case "Date Picker": DatePickerDemoView()
@@ -153,6 +152,8 @@ struct ContentView: View {
         case "Slider": SliderDemoView()
         case "Stepper": StepperDemoView()
         case "TabView": TabViewDemoView()
+        case "Text": TextDemoView()
+        case "Text Editor": TextEditorDemoView()
             
         default: DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }

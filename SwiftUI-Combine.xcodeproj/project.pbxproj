@@ -172,6 +172,9 @@
 		ACFB68DD2E6E79EA00371514 /* TabViewDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68DC2E6E79EA00371514 /* TabViewDemoView.swift */; };
 		ACFB68DE2E6E79EA00371514 /* TabViewDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68DC2E6E79EA00371514 /* TabViewDemoView.swift */; };
 		ACFB68DF2E6E79EA00371514 /* TabViewDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68DC2E6E79EA00371514 /* TabViewDemoView.swift */; };
+		ACFB68E52E6ECABF00371514 /* TextEditorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68E42E6ECABF00371514 /* TextEditorDemoView.swift */; };
+		ACFB68E62E6ECABF00371514 /* TextEditorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68E42E6ECABF00371514 /* TextEditorDemoView.swift */; };
+		ACFB68E72E6ECABF00371514 /* TextEditorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68E42E6ECABF00371514 /* TextEditorDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -257,6 +260,7 @@
 		ACFB68D42E6E762500371514 /* SliderDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderDemoView.swift; sourceTree = "<group>"; };
 		ACFB68D82E6E785800371514 /* StepperDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperDemoView.swift; sourceTree = "<group>"; };
 		ACFB68DC2E6E79EA00371514 /* TabViewDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemoView.swift; sourceTree = "<group>"; };
+		ACFB68E42E6ECABF00371514 /* TextEditorDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -448,6 +452,7 @@
 				ACFB68D42E6E762500371514 /* SliderDemoView.swift */,
 				ACFB68D82E6E785800371514 /* StepperDemoView.swift */,
 				ACFB68DC2E6E79EA00371514 /* TabViewDemoView.swift */,
+				ACFB68E42E6ECABF00371514 /* TextEditorDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -613,6 +618,7 @@
 				ACBC220E2E6AC88000A08ADE /* OutlineGroupDemoView.swift in Sources */,
 				ACF299A02C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A26C2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
+				ACFB68E52E6ECABF00371514 /* TextEditorDemoView.swift in Sources */,
 				ACF3A2672E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
 				ACF3A27B2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
 				ACFB68BE2E6E676100371514 /* ScrollViewDemoView.swift in Sources */,
@@ -685,6 +691,7 @@
 				ACF3A2A32E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
 				ACFB68B52E6E5EC600371514 /* ProgressDemoView.swift in Sources */,
 				ACF3A25D2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
+				ACFB68E72E6ECABF00371514 /* TextEditorDemoView.swift in Sources */,
 				ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				ACFB68BB2E6E631300371514 /* RenameButtonDemoView.swift in Sources */,
 				ACBC21FE2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
@@ -745,6 +752,7 @@
 				ACF3A2A22E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
 				ACFB68B62E6E5EC600371514 /* ProgressDemoView.swift in Sources */,
 				ACF3A25C2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
+				ACFB68E62E6ECABF00371514 /* TextEditorDemoView.swift in Sources */,
 				ACF3A2642E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				ACFB68B92E6E631300371514 /* RenameButtonDemoView.swift in Sources */,
 				ACBC21FD2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
