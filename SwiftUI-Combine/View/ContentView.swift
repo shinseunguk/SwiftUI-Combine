@@ -65,6 +65,7 @@ enum Constants {
             "Paste Button",
             "Picker",
             "ProgressView",
+            "RenameButton",
         ]),
     ]
 }
@@ -131,6 +132,7 @@ struct ContentView: View {
         case "Paste Button": PastButtonDemoView()
         case "Picker": PickerDemoView()
         case "ProgressView": ProgressDemoView()
+        case "RenameButton": RenameButtonDemoView()
         default: DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
     }

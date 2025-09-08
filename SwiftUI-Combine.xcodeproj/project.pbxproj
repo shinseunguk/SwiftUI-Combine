@@ -145,6 +145,9 @@
 		ACFB68B52E6E5EC600371514 /* ProgressDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68B42E6E5EC600371514 /* ProgressDemoView.swift */; };
 		ACFB68B62E6E5EC600371514 /* ProgressDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68B42E6E5EC600371514 /* ProgressDemoView.swift */; };
 		ACFB68B72E6E5EC600371514 /* ProgressDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68B42E6E5EC600371514 /* ProgressDemoView.swift */; };
+		ACFB68B92E6E631300371514 /* RenameButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68B82E6E631300371514 /* RenameButtonDemoView.swift */; };
+		ACFB68BA2E6E631300371514 /* RenameButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68B82E6E631300371514 /* RenameButtonDemoView.swift */; };
+		ACFB68BB2E6E631300371514 /* RenameButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68B82E6E631300371514 /* RenameButtonDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,6 +224,7 @@
 		ACF3A2B02E68307D005CA854 /* DatePickerDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerDemoView.swift; sourceTree = "<group>"; };
 		ACF3A2B42E683722005CA854 /* FormDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDemoView.swift; sourceTree = "<group>"; };
 		ACFB68B42E6E5EC600371514 /* ProgressDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDemoView.swift; sourceTree = "<group>"; };
+		ACFB68B82E6E631300371514 /* RenameButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameButtonDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,6 +407,7 @@
 				ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */,
 				ACBC22142E6ADAE400A08ADE /* PickerDemoView.swift */,
 				ACFB68B42E6E5EC600371514 /* ProgressDemoView.swift */,
+				ACFB68B82E6E631300371514 /* RenameButtonDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -555,6 +560,7 @@
 				ACF299A42C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
 				ACF3A2532E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACBC22052E69841E00A08ADE /* NavigationDemoView.swift in Sources */,
+				ACFB68BA2E6E631300371514 /* RenameButtonDemoView.swift in Sources */,
 				ACF3A2AF2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACF3A2702E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
 				ACF299722C19939400DCFF27 /* SwiftUI_CombineApp.swift in Sources */,
@@ -627,6 +633,7 @@
 				ACFB68B52E6E5EC600371514 /* ProgressDemoView.swift in Sources */,
 				ACF3A25D2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
+				ACFB68BB2E6E631300371514 /* RenameButtonDemoView.swift in Sources */,
 				ACBC21FE2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
 				ACBC22112E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
 				ACBC22172E6ADAE400A08ADE /* PickerDemoView.swift in Sources */,
@@ -678,6 +685,7 @@
 				ACFB68B62E6E5EC600371514 /* ProgressDemoView.swift in Sources */,
 				ACF3A25C2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A2642E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
+				ACFB68B92E6E631300371514 /* RenameButtonDemoView.swift in Sources */,
 				ACBC21FD2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
 				ACBC22132E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
 				ACBC22162E6ADAE400A08ADE /* PickerDemoView.swift in Sources */,
