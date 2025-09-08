@@ -67,7 +67,8 @@ enum Constants {
             "ProgressView",
             "RenameButton",
             "ScrollView",
-            "Section"
+            "Section",
+            "Secure Field"
         ]),
     ]
 }
@@ -137,6 +138,7 @@ struct ContentView: View {
         case "RenameButton": RenameButtonDemoView()
         case "ScrollView": ScrollViewDemoView()
         case "Section": SectionDemoView()
+        case "Secure Field": SecureFieldDemoView()
         default: DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
     }

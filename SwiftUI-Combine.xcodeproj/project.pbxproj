@@ -154,6 +154,9 @@
 		ACFB68C12E6E6A8100371514 /* SectionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68C02E6E6A8100371514 /* SectionDemoView.swift */; };
 		ACFB68C22E6E6A8100371514 /* SectionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68C02E6E6A8100371514 /* SectionDemoView.swift */; };
 		ACFB68C32E6E6A8100371514 /* SectionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68C02E6E6A8100371514 /* SectionDemoView.swift */; };
+		ACFB68C92E6E6D7300371514 /* SecureFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68C82E6E6D7300371514 /* SecureFieldDemoView.swift */; };
+		ACFB68CA2E6E6D7300371514 /* SecureFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68C82E6E6D7300371514 /* SecureFieldDemoView.swift */; };
+		ACFB68CB2E6E6D7300371514 /* SecureFieldDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68C82E6E6D7300371514 /* SecureFieldDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,6 +236,7 @@
 		ACFB68B82E6E631300371514 /* RenameButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameButtonDemoView.swift; sourceTree = "<group>"; };
 		ACFB68BC2E6E676100371514 /* ScrollViewDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewDemoView.swift; sourceTree = "<group>"; };
 		ACFB68C02E6E6A8100371514 /* SectionDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDemoView.swift; sourceTree = "<group>"; };
+		ACFB68C82E6E6D7300371514 /* SecureFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,6 +422,7 @@
 				ACFB68B82E6E631300371514 /* RenameButtonDemoView.swift */,
 				ACFB68BC2E6E676100371514 /* ScrollViewDemoView.swift */,
 				ACFB68C02E6E6A8100371514 /* SectionDemoView.swift */,
+				ACFB68C82E6E6D7300371514 /* SecureFieldDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -588,6 +593,7 @@
 				ACF3A2582E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACBC22012E696C7C00A08ADE /* MultiDatePickerDemoView.swift in Sources */,
 				ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */,
+				ACFB68C92E6E6D7300371514 /* SecureFieldDemoView.swift in Sources */,
 				ACF3A2602E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACFB68B72E6E5EC600371514 /* ProgressDemoView.swift in Sources */,
 				ACBC21F72E69569900A08ADE /* LinkDemoView.swift in Sources */,
@@ -627,6 +633,7 @@
 				ACBC220F2E6AC88000A08ADE /* OutlineGroupDemoView.swift in Sources */,
 				ACBC21EF2E69520C00A08ADE /* LabelDemoView.swift in Sources */,
 				ACF299AA2C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
+				ACFB68CB2E6E6D7300371514 /* SecureFieldDemoView.swift in Sources */,
 				ACF3A2832E6674C0005CA854 /* ViewBuilderDemoView.swift in Sources */,
 				ACF3A2B62E683722005CA854 /* FormDemoView.swift in Sources */,
 				ACF3A2B32E68307D005CA854 /* DatePickerDemoView.swift in Sources */,
@@ -681,6 +688,7 @@
 				ACBC220D2E6AC88000A08ADE /* OutlineGroupDemoView.swift in Sources */,
 				ACBC21ED2E69520C00A08ADE /* LabelDemoView.swift in Sources */,
 				ACF2998D2C19939500DCFF27 /* SwiftUI_CombineUITests.swift in Sources */,
+				ACFB68CA2E6E6D7300371514 /* SecureFieldDemoView.swift in Sources */,
 				ACF3A2852E6674C0005CA854 /* ViewBuilderDemoView.swift in Sources */,
 				ACF3A2B72E683722005CA854 /* FormDemoView.swift in Sources */,
 				ACF3A2B12E68307D005CA854 /* DatePickerDemoView.swift in Sources */,
