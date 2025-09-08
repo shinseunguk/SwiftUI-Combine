@@ -49,6 +49,9 @@
 		ACBC22112E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */; };
 		ACBC22122E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */; };
 		ACBC22132E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */; };
+		ACBC22152E6ADAE400A08ADE /* PickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22142E6ADAE400A08ADE /* PickerDemoView.swift */; };
+		ACBC22162E6ADAE400A08ADE /* PickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22142E6ADAE400A08ADE /* PickerDemoView.swift */; };
+		ACBC22172E6ADAE400A08ADE /* PickerDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC22142E6ADAE400A08ADE /* PickerDemoView.swift */; };
 		ACDE45712E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45722E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
 		ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE45702E6029D400E5E997 /* StateDemoView.swift */; };
@@ -173,6 +176,7 @@
 		ACBC22082E6AC69C00A08ADE /* NavigationSplitDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitDemoView.swift; sourceTree = "<group>"; };
 		ACBC220C2E6AC88000A08ADE /* OutlineGroupDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupDemoView.swift; sourceTree = "<group>"; };
 		ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastButtonDemoView.swift; sourceTree = "<group>"; };
+		ACBC22142E6ADAE400A08ADE /* PickerDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDemoView.swift; sourceTree = "<group>"; };
 		ACDE45702E6029D400E5E997 /* StateDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoView.swift; sourceTree = "<group>"; };
 		ACDE45742E6030F800E5E997 /* StateDemoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemoViewTests.swift; sourceTree = "<group>"; };
 		ACF2996E2C19939400DCFF27 /* SwiftUI-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -393,6 +397,7 @@
 				ACBC22082E6AC69C00A08ADE /* NavigationSplitDemoView.swift */,
 				ACBC220C2E6AC88000A08ADE /* OutlineGroupDemoView.swift */,
 				ACBC22102E6ACAA400A08ADE /* PastButtonDemoView.swift */,
+				ACBC22142E6ADAE400A08ADE /* PickerDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -537,6 +542,7 @@
 				ACBC21FF2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
 				ACF3A2912E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C02E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
+				ACBC22152E6ADAE400A08ADE /* PickerDemoView.swift in Sources */,
 				ACF299A92C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF299742C19939400DCFF27 /* ContentView.swift in Sources */,
 				ACF3A2A12E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
@@ -616,6 +622,7 @@
 				ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				ACBC21FE2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
 				ACBC22112E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
+				ACBC22172E6ADAE400A08ADE /* PickerDemoView.swift in Sources */,
 				AC33C6BE2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2792E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACBC22062E69841E00A08ADE /* NavigationDemoView.swift in Sources */,
@@ -665,6 +672,7 @@
 				ACF3A2642E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				ACBC21FD2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
 				ACBC22132E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
+				ACBC22162E6ADAE400A08ADE /* PickerDemoView.swift in Sources */,
 				AC33C6BC2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACF3A2772E65930A005CA854 /* MainActorDemoView.swift in Sources */,
 				ACBC22072E69841E00A08ADE /* NavigationDemoView.swift in Sources */,
