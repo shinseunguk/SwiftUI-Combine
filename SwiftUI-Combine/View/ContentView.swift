@@ -154,6 +154,7 @@ struct ContentView: View {
         case "TabView": TabViewDemoView()
         case "Text": TextDemoView()
         case "Text Editor": TextEditorDemoView()
+        case "Text Field": TextFieldDemoView()
             
         default: DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
