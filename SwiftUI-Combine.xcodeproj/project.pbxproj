@@ -160,6 +160,9 @@
 		ACFB68CD2E6E6F8700371514 /* ShareLinkDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68CC2E6E6F8700371514 /* ShareLinkDemoView.swift */; };
 		ACFB68CE2E6E6F8700371514 /* ShareLinkDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68CC2E6E6F8700371514 /* ShareLinkDemoView.swift */; };
 		ACFB68CF2E6E6F8700371514 /* ShareLinkDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68CC2E6E6F8700371514 /* ShareLinkDemoView.swift */; };
+		ACFB68D12E6E750D00371514 /* SignInWithAppleButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68D02E6E750D00371514 /* SignInWithAppleButtonDemoView.swift */; };
+		ACFB68D22E6E750D00371514 /* SignInWithAppleButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68D02E6E750D00371514 /* SignInWithAppleButtonDemoView.swift */; };
+		ACFB68D32E6E750D00371514 /* SignInWithAppleButtonDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68D02E6E750D00371514 /* SignInWithAppleButtonDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,6 +244,7 @@
 		ACFB68C02E6E6A8100371514 /* SectionDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDemoView.swift; sourceTree = "<group>"; };
 		ACFB68C82E6E6D7300371514 /* SecureFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldDemoView.swift; sourceTree = "<group>"; };
 		ACFB68CC2E6E6F8700371514 /* ShareLinkDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkDemoView.swift; sourceTree = "<group>"; };
+		ACFB68D02E6E750D00371514 /* SignInWithAppleButtonDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -428,6 +432,7 @@
 				ACFB68C02E6E6A8100371514 /* SectionDemoView.swift */,
 				ACFB68C82E6E6D7300371514 /* SecureFieldDemoView.swift */,
 				ACFB68CC2E6E6F8700371514 /* ShareLinkDemoView.swift */,
+				ACFB68D02E6E750D00371514 /* SignInWithAppleButtonDemoView.swift */,
 			);
 			path = "UI & View Modifier";
 			sourceTree = "<group>";
@@ -569,6 +574,7 @@
 			files = (
 				ACF3A2952E66A867005CA854 /* AppDelegate.swift in Sources */,
 				ACF3A2B22E68307D005CA854 /* DatePickerDemoView.swift in Sources */,
+				ACFB68D12E6E750D00371514 /* SignInWithAppleButtonDemoView.swift in Sources */,
 				ACBC21FF2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
 				ACF3A2912E668EA6005CA854 /* SwiftDataView.swift in Sources */,
 				AC33C6C02E61762500CBCBA4 /* ObservedObjectDemoView.swift in Sources */,
@@ -672,6 +678,7 @@
 				ACFB68C22E6E6A8100371514 /* SectionDemoView.swift in Sources */,
 				ACF3A2732E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2882E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
+				ACFB68D22E6E750D00371514 /* SignInWithAppleButtonDemoView.swift in Sources */,
 				ACBC21F22E6953A300A08ADE /* LabeledContentDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -728,6 +735,7 @@
 				ACFB68C32E6E6A8100371514 /* SectionDemoView.swift in Sources */,
 				ACF3A2752E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2872E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
+				ACFB68D32E6E750D00371514 /* SignInWithAppleButtonDemoView.swift in Sources */,
 				ACBC21F32E6953A300A08ADE /* LabeledContentDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

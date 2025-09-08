@@ -69,7 +69,8 @@ enum Constants {
             "ScrollView",
             "Section",
             "Secure Field",
-            "ShareLink"
+            "ShareLink",
+            "Sign In With Apple Button"
         ]),
     ]
 }
@@ -141,6 +142,7 @@ struct ContentView: View {
         case "Section": SectionDemoView()
         case "Secure Field": SecureFieldDemoView()
         case "ShareLink": ShareLinkDemoView()
+        case "Sign In With Apple Button": SignInWithAppleButtonDemoView()
         default: DetailView(title: value, description: "해당 예제는 아직 준비 중입니다.")
         }
     }
