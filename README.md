@@ -15,7 +15,16 @@ SwiftUI와 Combine을 활용한 iOS 리액티브 프로그래밍 학습 프로�
 
 ## 📚 구현된 기능들
 
-### State & Data Flow (상태 관리)
+### 🔥 TCA (The Composable Architecture)
+- **TCA 기초 예제**: Counter 앱을 통한 State, Action, Reducer 패턴 학습
+  - 증가/감소/리셋 기능이 있는 카운터 구현
+  - `@Reducer`, `@ObservableState` 활용
+  - ViewStore를 통한 상태 관찰 및 액션 전송
+
+### ⏰ SceneDelegate 관련 예제
+- **Stopwatch**: 시계/타이머 기능 데모
+
+### 🔄 State & Data Flow (상태 관리)
 - **State**: `@State`를 활용한 로컬 상태 관리
 - **Binding**: `@Binding`을 통한 양방향 데이터 바인딩
 - **ObservedObject & StateObject**: Observable 객체와 뷰 생명주기 관리
@@ -29,18 +38,38 @@ SwiftUI와 Combine을 활용한 iOS 리액티브 프로그래밍 학습 프로�
 - **Namespace**: matchedGeometryEffect를 활용한 뷰 전환
 - **MainActor**: 스레드 안전 UI 갱신 보장
 
-### Observation (iOS 17+)
+### ✨ Observation (iOS 17+)
 - **Observable**: 새로운 `@Observable` 매크로 패턴
 - **Bindable**: `@Bindable`을 활용한 Observable 객체 바인딩
 
-### Result Builders & UI 구성
+### 🏗️ Result Builders & UI 구성
 - **ViewBuilder**: 커스텀 뷰 컴포저블 패턴
 - **ToolbarContentBuilder**: 툴바 구성 요소 빌더
 
-### 데이터 스토어 연동
+### 💾 데이터 스토어 연동
 - **SwiftData**: `@Query`를 활용한 최신 데이터 관리 (Todo CRUD)
 
-### 앱 라이프사이클
+### 🎨 UI & View Modifier (50+ 컴포넌트)
+#### 기본 컴포넌트
+- **Text, Button**: 텍스트 및 버튼 컴포넌트
+- **TextField, TextEditor**: 텍스트 입력 컴포넌트
+- **Toggle, Slider, Stepper**: 입력 제어 컴포넌트
+- **Picker, DatePicker, ColorPicker**: 선택 컴포넌트
+
+#### 레이아웃 & 네비게이션
+- **List, ScrollView**: 스크롤 가능한 뷰 컴포넌트
+- **Form, Section**: 폼 및 섹션 구성
+- **TabView**: 탭 기반 네비게이션
+- **NavigationView, NavigationSplit**: 네비게이션 구조
+
+#### 고급 컴포넌트
+- **Gauge, ProgressView**: 진행률 표시 컴포넌트
+- **Menu, DisclosureGroup**: 메뉴 및 접을 수 있는 그룹
+- **OutlineGroup**: 트리 구조 데이터 표시
+- **ShareLink**: iOS 16+ 공유 기능
+- **SignInWithAppleButton**: Apple 로그인 버튼
+
+### 📱 앱 라이프사이클
 - **UIApplicationDelegateAdaptor**: SwiftUI 앱에 UIKit AppDelegate 연결
 
 ## 🏗️ 프로젝트 구조
@@ -52,7 +81,20 @@ SwiftUI-Combine/
 │   └── AppDelegate.swift             # UIKit AppDelegate 연동
 ├── View/
 │   ├── ContentView.swift             # 메인 네비게이션 뷰
-│   └── State & Data Flow/            # 상태 관리 데모 뷰들
+│   ├── TCA/                          # TCA 관련 데모
+│   │   ├── TCADemoFeature.swift      # TCA Feature 정의
+│   │   └── TCADemoView.swift         # TCA 뷰 구현
+│   ├── SceneDelegate/                # Scene 관련 데모
+│   │   └── StopwatchDemoView.swift   # 스톱워치 데모
+│   ├── Annotation/                   # 상태 관리 데모 뷰들
+│   │   ├── StateDemoView.swift       # @State 데모
+│   │   ├── BindingDemoView.swift     # @Binding 데모
+│   │   ├── ObservableDemoView.swift  # @Observable 데모
+│   │   └── ... (기타 20+ 데모 뷰)
+│   └── UI & View Modifier/           # UI 컴포넌트 데모 뷰들
+│       ├── ButtonDemoView.swift      # Button 데모
+│       ├── TextFieldDemoView.swift   # TextField 데모
+│       └── ... (기타 50+ UI 데모 뷰)
 ├── Protocol/
 │   └── ViewModel.swift               # ViewModel 프로토콜
 └── Resources/                        # 리소스 파일들
@@ -64,6 +106,10 @@ SwiftUI-Combine/
 - Xcode 15.0+
 - iOS 17.0+
 - Swift 5.9+
+
+### 주요 의존성
+- **ComposableArchitecture 1.22.2**: TCA 패턴 구현을 위한 라이브러리
+- **ViewInspector 0.10.2**: SwiftUI 뷰 테스트를 위한 라이브러리
 
 ### 실행 방법
 1. 프로젝트 클론 또는 다운로드
@@ -93,6 +139,8 @@ xcodebuild test -project SwiftUI-Combine.xcodeproj -scheme SwiftUI-Combine
 8. **UI 빌더 패턴** - `@ViewBuilder`, `ToolbarContentBuilder`
 9. **데이터 연동** - SwiftData를 활용한 CRUD 구현
 10. **앱 라이프사이클** - UIApplicationDelegateAdaptor 연동
+11. **50+ UI 컴포넌트** - 모든 SwiftUI 기본 컴포넌트 데모 구현
+12. **TCA 패턴 추가** - The Composable Architecture 라이브러리 연동 및 Counter 예제 구현
 
 ## 🧪 테스트
 
@@ -114,8 +162,17 @@ xcodebuild test -project SwiftUI-Combine.xcodeproj -scheme SwiftUI-Combine
 
 ## 🔄 최근 업데이트
 
-- **네비게이션 구조 정리**: 구현 완료된 기능들만 남기고 메뉴 정리
-- **UIApplicationDelegateAdaptor**: SwiftUI 앱에 UIKit 라이프사이클 연동
+### 2025년 9월
+- **TCA 패턴 구현 완료**: The Composable Architecture 라이브러리 추가 및 Counter 예제 완성
+  - `TCADemoFeature`: State, Action, Reducer 패턴 완벽 구현
+  - `TCADemoView`: 증가/감소/리셋 기능을 가진 인터랙티브한 카운터 UI
+  - 시각적으로 아름다운 원형 배경의 카운터 디스플레이
+- **프로젝트 구조 개선**: TCA 전용 폴더 구조 추가
+- **의존성 관리**: ComposableArchitecture 1.22.2 정식 통합
+
+### 이전 업데이트
+- **50+ UI 컴포넌트**: 모든 SwiftUI 기본 컴포넌트 데모 구현 완료
+- **네비게이션 구조 정리**: 구현 완료된 기능들만 남기고 메뉴 정리  
 - **SwiftData 통합**: 최신 데이터 관리 패턴 구현
 - **iOS 17+ 기능**: Observable, Bindable 패턴 완전 구현
 
