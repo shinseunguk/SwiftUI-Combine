@@ -18,6 +18,9 @@ struct SectionData: Identifiable {
 // MARK: - Constants (섹션 & 아이템)
 enum Constants {
     static let sections: [SectionData] = [
+        SectionData(title: "SceneDelegate 관련 예제", items: [
+            "⏰ Stopwatch",
+        ]),
         SectionData(title: "State & Data Flow", items: [
             "State 관리",
             "Binding",
@@ -105,6 +108,8 @@ struct ContentView: View {
     @ViewBuilder
     private func destinationView(for value: String) -> some View {
         switch value {
+        case "⏰ Stopwatch": StopwatchDemoView()
+            
         case "State 관리": StateDemoView()
         case "Binding": BindingDemoView()
         case "ObservedObject & StateObject": ObservedObjectDemoView()

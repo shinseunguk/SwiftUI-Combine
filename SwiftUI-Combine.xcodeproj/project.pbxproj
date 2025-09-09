@@ -181,6 +181,9 @@
 		ACFB68ED2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */; };
 		ACFB68EE2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */; };
 		ACFB68EF2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */; };
+		ACFB68F22E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */; };
+		ACFB68F32E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */; };
+		ACFB68F42E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -269,6 +272,7 @@
 		ACFB68E42E6ECABF00371514 /* TextEditorDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorDemoView.swift; sourceTree = "<group>"; };
 		ACFB68E82E6ECBDE00371514 /* TextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemoView.swift; sourceTree = "<group>"; };
 		ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleDemoView.swift; sourceTree = "<group>"; };
+		ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,6 +390,7 @@
 		ACF2999B2C1ABFDE00DCFF27 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ACFB68F02E6FC49A00371514 /* SceneDelegate */,
 				ACDE456F2E6029C800E5E997 /* Annotation */,
 				ACF3A29B2E66E809005CA854 /* UI & View Modifier */,
 				ACF299732C19939400DCFF27 /* ContentView.swift */,
@@ -465,6 +470,14 @@
 				ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */,
 			);
 			path = "UI & View Modifier";
+			sourceTree = "<group>";
+		};
+		ACFB68F02E6FC49A00371514 /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */,
+			);
+			path = SceneDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -645,6 +658,7 @@
 				ACF3A2A52E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
 				ACF3A2812E667126005CA854 /* BindableDemoView.swift in Sources */,
 				ACBC21E72E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
+				ACFB68F22E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */,
 				ACFB68EA2E6ECBDE00371514 /* TextFieldDemoView.swift in Sources */,
 				ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A29D2E66E81C005CA854 /* TextDemoView.swift in Sources */,
@@ -692,6 +706,7 @@
 				ACF3A2682E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
 				ACF3A27C2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
 				ACF3A2572E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
+				ACFB68F42E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */,
 				ACDE45752E6030F800E5E997 /* StateDemoViewTests.swift in Sources */,
 				ACBC21E62E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
 				ACF3A25F2E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
@@ -755,6 +770,7 @@
 				ACF3A2692E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
 				ACF3A27D2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
 				ACF3A2592E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
+				ACFB68F32E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */,
 				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACBC21E52E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
 				ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
