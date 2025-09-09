@@ -19,7 +19,6 @@ SwiftUI와 Combine을 활용한 iOS 리액티브 프로그래밍 학습 프로�
 - **TCA 기초 예제**: Counter 앱을 통한 State, Action, Reducer 패턴 학습
   - 증가/감소/리셋 기능이 있는 카운터 구현
   - `@Reducer`, `@ObservableState` 활용
-  - ViewStore를 통한 상태 관찰 및 액션 전송
 
 ### ⏰ SceneDelegate 관련 예제
 - **Stopwatch**: 시계/타이머 기능 데모

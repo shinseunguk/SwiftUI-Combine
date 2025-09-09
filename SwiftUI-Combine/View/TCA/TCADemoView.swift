@@ -12,11 +12,9 @@ import Combine
 
 struct TCADemoView: View {
     let store: StoreOf<TCADemoFeature>
-    @ObservedObject var viewStore: ViewStoreOf<TCADemoFeature>
     
     init(store: StoreOf<TCADemoFeature>) {
         self.store = store
-        self.viewStore = ViewStore(store, observe: { $0 })
     }
     
     var body: some View {
@@ -25,7 +23,7 @@ struct TCADemoView: View {
                 .font(.title)
                 .fontWeight(.bold)
             
-            Text("\(viewStore.count)")
+            Text("\(store.count)")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
                 .foregroundColor(.primary)
@@ -37,20 +35,20 @@ struct TCADemoView: View {
                 )
             
             HStack(spacing: 20) {
-                Button(action: { viewStore.send(.decrement) }) {
+                Button(action: { store.send(.decrement) }) {
                     Image(systemName: "minus.circle.fill")
                         .font(.title2)
                         .foregroundColor(.red)
                 }
-                .disabled(viewStore.count <= 0)
+                .disabled(store.count <= 0)
                 
-                Button(action: { viewStore.send(.increment) }) {
+                Button(action: { store.send(.increment) }) {
                     Image(systemName: "plus.circle.fill")
                         .font(.title2)
                         .foregroundColor(.green)
                 }
                 
-                Button(action: { viewStore.send(.reset) }) {
+                Button(action: { store.send(.reset) }) {
                     Image(systemName: "arrow.clockwise.circle.fill")
                         .font(.title2)
                         .foregroundColor(.orange)
