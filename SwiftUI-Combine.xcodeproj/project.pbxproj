@@ -188,6 +188,9 @@
 		ACFB68FA2E6FF14600371514 /* TCADemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F92E6FF14600371514 /* TCADemoView.swift */; };
 		ACFB68FB2E6FF14600371514 /* TCADemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F92E6FF14600371514 /* TCADemoView.swift */; };
 		ACFB68FC2E6FF14600371514 /* TCADemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F92E6FF14600371514 /* TCADemoView.swift */; };
+		ACFB68FE2E6FF2CB00371514 /* TCADemoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68FD2E6FF2CB00371514 /* TCADemoFeature.swift */; };
+		ACFB68FF2E6FF2CB00371514 /* TCADemoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68FD2E6FF2CB00371514 /* TCADemoFeature.swift */; };
+		ACFB69002E6FF2CB00371514 /* TCADemoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68FD2E6FF2CB00371514 /* TCADemoFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -278,6 +281,7 @@
 		ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleDemoView.swift; sourceTree = "<group>"; };
 		ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchDemoView.swift; sourceTree = "<group>"; };
 		ACFB68F92E6FF14600371514 /* TCADemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADemoView.swift; sourceTree = "<group>"; };
+		ACFB68FD2E6FF2CB00371514 /* TCADemoFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADemoFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,6 +495,7 @@
 			isa = PBXGroup;
 			children = (
 				ACFB68F92E6FF14600371514 /* TCADemoView.swift */,
+				ACFB68FD2E6FF2CB00371514 /* TCADemoFeature.swift */,
 			);
 			path = TCA;
 			sourceTree = "<group>";
@@ -675,6 +680,7 @@
 				ACF3A2812E667126005CA854 /* BindableDemoView.swift in Sources */,
 				ACBC21E72E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
 				ACFB68F22E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */,
+				ACFB68FF2E6FF2CB00371514 /* TCADemoFeature.swift in Sources */,
 				ACFB68EA2E6ECBDE00371514 /* TextFieldDemoView.swift in Sources */,
 				ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A29D2E66E81C005CA854 /* TextDemoView.swift in Sources */,
@@ -751,6 +757,7 @@
 				ACF3A2AE2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACBC220A2E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */,
 				ACFB68C22E6E6A8100371514 /* SectionDemoView.swift in Sources */,
+				ACFB69002E6FF2CB00371514 /* TCADemoFeature.swift in Sources */,
 				ACF3A2732E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2882E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
 				ACFB68D22E6E750D00371514 /* SignInWithAppleButtonDemoView.swift in Sources */,
@@ -816,6 +823,7 @@
 				ACF3A2AD2E68267B005CA854 /* ColorPickerDemoView.swift in Sources */,
 				ACBC22092E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */,
 				ACFB68C32E6E6A8100371514 /* SectionDemoView.swift in Sources */,
+				ACFB68FE2E6FF2CB00371514 /* TCADemoFeature.swift in Sources */,
 				ACF3A2752E65907B005CA854 /* NamespaceDemoView.swift in Sources */,
 				ACF3A2872E667E79005CA854 /* ToolbarBuilderDemoView.swift in Sources */,
 				ACFB68D32E6E750D00371514 /* SignInWithAppleButtonDemoView.swift in Sources */,

@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Combine
+import ComposableArchitecture
 
 // MARK: - Model
 struct SectionData: Identifiable {
@@ -112,7 +113,12 @@ struct ContentView: View {
     private func destinationView(for value: String) -> some View {
         switch value {
         // MARK: - TCA 관련 예제
-        case "TCA 기초 예제 (Count UP/DOWN)": TCADemoView()
+        case "TCA 기초 예제 (Count UP/DOWN)": TCADemoView(
+            store: Store(
+                initialState: TCADemoFeature.State(),
+                reducer: { TCADemoFeature()._printChanges() }
+            )
+        )
         
         // MARK: - SceneDelegate 관련 예제
         case "⏰ Stopwatch": StopwatchDemoView()
