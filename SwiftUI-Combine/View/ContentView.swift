@@ -18,6 +18,9 @@ struct SectionData: Identifiable {
 // MARK: - Constants (섹션 & 아이템)
 enum Constants {
     static let sections: [SectionData] = [
+        SectionData(title: "TCA 관련 예제", items: [
+            "TCA 기초 예제 (Count UP/DOWN)"
+        ]),
         SectionData(title: "SceneDelegate 관련 예제", items: [
             "⏰ Stopwatch",
         ]),
@@ -108,8 +111,13 @@ struct ContentView: View {
     @ViewBuilder
     private func destinationView(for value: String) -> some View {
         switch value {
+        // MARK: - TCA 관련 예제
+        case "TCA 기초 예제 (Count UP/DOWN)": TCADemoView()
+        
+        // MARK: - SceneDelegate 관련 예제
         case "⏰ Stopwatch": StopwatchDemoView()
             
+        // MARK: - State & Data Flow
         case "State 관리": StateDemoView()
         case "Binding": BindingDemoView()
         case "ObservedObject & StateObject": ObservedObjectDemoView()
@@ -122,12 +130,19 @@ struct ContentView: View {
         case "ScaledMetric": ScaledMetricDemoView()
         case "Namespace (matchedGeometryEffect)": NamespaceDemoView()
         case "MainActor": MainActorDemoView()
+            
+        // MARK: - "Observation (iOS 17+ 권장)"
         case "Observable (iOS 17+)": ObservableDemoView()
         case "Bindable (iOS 17+)": BindableDemoView()
+            
+        // MARK: - Result Builders & UI 구성
         case "ViewBuilder": ViewBuilderDemoView()
         case "ToolbarContentBuilder": ToolbarBuilderDemoView()
+            
+        // MARK: - 데이터 스토어 연동
         case "Query (SwiftData) - 코드 샘플": SwiftDataView().modelContainer(for: Todo.self)
         
+        // MARK: - UI & View Modifier
         case "Button": ButtonDemoView()
         case "Color Picker": ColorPickerDemoView()
         case "Date Picker": DatePickerDemoView()

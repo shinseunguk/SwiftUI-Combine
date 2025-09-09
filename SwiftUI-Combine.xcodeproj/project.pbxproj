@@ -184,6 +184,10 @@
 		ACFB68F22E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */; };
 		ACFB68F32E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */; };
 		ACFB68F42E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */; };
+		ACFB68F72E6FEE1B00371514 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = ACFB68F62E6FEE1B00371514 /* ComposableArchitecture */; };
+		ACFB68FA2E6FF14600371514 /* TCADemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F92E6FF14600371514 /* TCADemoView.swift */; };
+		ACFB68FB2E6FF14600371514 /* TCADemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F92E6FF14600371514 /* TCADemoView.swift */; };
+		ACFB68FC2E6FF14600371514 /* TCADemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFB68F92E6FF14600371514 /* TCADemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -273,6 +277,7 @@
 		ACFB68E82E6ECBDE00371514 /* TextFieldDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemoView.swift; sourceTree = "<group>"; };
 		ACFB68EC2E6ECCFA00371514 /* ToggleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleDemoView.swift; sourceTree = "<group>"; };
 		ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchDemoView.swift; sourceTree = "<group>"; };
+		ACFB68F92E6FF14600371514 /* TCADemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCADemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +285,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACFB68F72E6FEE1B00371514 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +396,7 @@
 		ACF2999B2C1ABFDE00DCFF27 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ACFB68F82E6FF14000371514 /* TCA */,
 				ACFB68F02E6FC49A00371514 /* SceneDelegate */,
 				ACDE456F2E6029C800E5E997 /* Annotation */,
 				ACF3A29B2E66E809005CA854 /* UI & View Modifier */,
@@ -478,6 +485,14 @@
 				ACFB68F12E6FC4AA00371514 /* StopwatchDemoView.swift */,
 			);
 			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		ACFB68F82E6FF14000371514 /* TCA */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB68F92E6FF14600371514 /* TCADemoView.swift */,
+			);
+			path = TCA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -570,6 +585,7 @@
 			mainGroup = ACF299652C19939400DCFF27;
 			packageReferences = (
 				ACDE45762E60321C00E5E997 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+				ACFB68F52E6FEE1B00371514 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = ACF2996F2C19939400DCFF27 /* Products */;
 			projectDirPath = "";
@@ -664,6 +680,7 @@
 				ACF3A29D2E66E81C005CA854 /* TextDemoView.swift in Sources */,
 				ACBC220B2E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */,
 				ACF3A2652E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
+				ACFB68FA2E6FF14600371514 /* TCADemoView.swift in Sources */,
 				AC33C6BD2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACFB68D62E6E762500371514 /* SliderDemoView.swift in Sources */,
 				ACBC22122E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
@@ -702,6 +719,7 @@
 				ACF3A2B62E683722005CA854 /* FormDemoView.swift in Sources */,
 				ACF3A2B32E68307D005CA854 /* DatePickerDemoView.swift in Sources */,
 				ACF299A52C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
+				ACFB68FC2E6FF14600371514 /* TCADemoView.swift in Sources */,
 				ACF3A26B2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
 				ACF3A2682E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
 				ACF3A27C2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
@@ -766,6 +784,7 @@
 				ACF3A2B72E683722005CA854 /* FormDemoView.swift in Sources */,
 				ACF3A2B12E68307D005CA854 /* DatePickerDemoView.swift in Sources */,
 				ACF299A22C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
+				ACFB68FB2E6FF14600371514 /* TCADemoView.swift in Sources */,
 				ACF3A26D2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
 				ACF3A2692E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
 				ACF3A27D2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
@@ -1123,6 +1142,14 @@
 				minimumVersion = 0.10.2;
 			};
 		};
+		ACFB68F52E6FEE1B00371514 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = exactVersion;
+				version = 1.22.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1130,6 +1157,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = ACDE45762E60321C00E5E997 /* XCRemoteSwiftPackageReference "ViewInspector" */;
 			productName = ViewInspector;
+		};
+		ACFB68F62E6FEE1B00371514 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACFB68F52E6FEE1B00371514 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
