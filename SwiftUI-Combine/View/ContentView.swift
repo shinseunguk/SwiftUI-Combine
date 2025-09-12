@@ -20,7 +20,8 @@ struct SectionData: Identifiable {
 enum Constants {
     static let sections: [SectionData] = [
         SectionData(title: "TCA 관련 예제", items: [
-            "TCA 기초 예제 (Count UP/DOWN)"
+            "TCA 기초 예제 (Count UP/DOWN)",
+            "TCA View Components (IfLetStore)"
         ]),
         SectionData(title: "SceneDelegate 관련 예제", items: [
             "⏰ Stopwatch",
@@ -112,11 +113,17 @@ struct ContentView: View {
     @ViewBuilder
     private func destinationView(for value: String) -> some View {
         switch value {
-        // MARK: - TCA 관련 예제
+            // MARK: - TCA 관련 예제
         case "TCA 기초 예제 (Count UP/DOWN)": TCADemoView(
             store: Store(
                 initialState: TCADemoFeature.State(),
                 reducer: { TCADemoFeature()._printChanges() }
+            )
+        )
+        case "TCA View Components (IfLetStore)": ParentView(
+            store: Store(
+                initialState: ParentFeature.State(),
+                reducer: { ParentFeature()._printChanges() }
             )
         )
         
