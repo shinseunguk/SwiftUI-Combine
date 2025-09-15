@@ -21,7 +21,8 @@ enum Constants {
     static let sections: [SectionData] = [
         SectionData(title: "TCA 관련 예제", items: [
             "TCA 기초 예제 (Count UP/DOWN)",
-            "TCA View Components (IfLetStore)"
+            "TCA View Components (IfLetStore)",
+            "TCA View Components (ForEachStore)"
         ]),
         SectionData(title: "SceneDelegate 관련 예제", items: [
             "⏰ Stopwatch",
@@ -124,6 +125,12 @@ struct ContentView: View {
             store: Store(
                 initialState: ParentFeature.State(),
                 reducer: { ParentFeature()._printChanges() }
+            )
+        )
+        case "TCA View Components (ForEachStore)": TodosView(
+            store: Store(
+                initialState: TodosFeature.State(),
+                reducer: { TodosFeature()._printChanges() }
             )
         )
         

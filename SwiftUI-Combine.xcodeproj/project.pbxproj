@@ -28,6 +28,18 @@
 		AC5FF5AC2E740F3200FCE60D /* FeatureAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5FF5AB2E740F3200FCE60D /* FeatureAction.swift */; };
 		AC5FF5AD2E740F3200FCE60D /* FeatureAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5FF5AB2E740F3200FCE60D /* FeatureAction.swift */; };
 		AC5FF5AE2E740F3200FCE60D /* FeatureAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5FF5AB2E740F3200FCE60D /* FeatureAction.swift */; };
+		AC6032452E7792FA00A1D564 /* TodoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6032442E7792FA00A1D564 /* TodoFeature.swift */; };
+		AC6032462E7792FA00A1D564 /* TodoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6032442E7792FA00A1D564 /* TodoFeature.swift */; };
+		AC6032472E7792FA00A1D564 /* TodoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6032442E7792FA00A1D564 /* TodoFeature.swift */; };
+		AC6032492E77930100A1D564 /* TodosFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6032482E77930100A1D564 /* TodosFeature.swift */; };
+		AC60324A2E77930100A1D564 /* TodosFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6032482E77930100A1D564 /* TodosFeature.swift */; };
+		AC60324B2E77930100A1D564 /* TodosFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6032482E77930100A1D564 /* TodosFeature.swift */; };
+		AC60324D2E77930900A1D564 /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60324C2E77930900A1D564 /* TodoRow.swift */; };
+		AC60324E2E77930900A1D564 /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60324C2E77930900A1D564 /* TodoRow.swift */; };
+		AC60324F2E77930900A1D564 /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60324C2E77930900A1D564 /* TodoRow.swift */; };
+		AC6032512E77930F00A1D564 /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6032502E77930F00A1D564 /* TodosView.swift */; };
+		AC6032522E77930F00A1D564 /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6032502E77930F00A1D564 /* TodosView.swift */; };
+		AC6032532E77930F00A1D564 /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6032502E77930F00A1D564 /* TodosView.swift */; };
 		ACBC21E52E694A5C00A08ADE /* GaugeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */; };
 		ACBC21E62E694A5C00A08ADE /* GaugeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */; };
 		ACBC21E72E694A5C00A08ADE /* GaugeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */; };
@@ -235,6 +247,10 @@
 		AC5FF5A32E740E8000FCE60D /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
 		AC5FF5A72E740E8700FCE60D /* ChildFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildFeature.swift; sourceTree = "<group>"; };
 		AC5FF5AB2E740F3200FCE60D /* FeatureAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureAction.swift; sourceTree = "<group>"; };
+		AC6032442E7792FA00A1D564 /* TodoFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoFeature.swift; sourceTree = "<group>"; };
+		AC6032482E77930100A1D564 /* TodosFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosFeature.swift; sourceTree = "<group>"; };
+		AC60324C2E77930900A1D564 /* TodoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRow.swift; sourceTree = "<group>"; };
+		AC6032502E77930F00A1D564 /* TodosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosView.swift; sourceTree = "<group>"; };
 		ACBC21E42E694A5C00A08ADE /* GaugeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeDemoView.swift; sourceTree = "<group>"; };
 		ACBC21E82E694DE400A08ADE /* GroupBoxDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxDemoView.swift; sourceTree = "<group>"; };
 		ACBC21EC2E69520C00A08ADE /* LabelDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDemoView.swift; sourceTree = "<group>"; };
@@ -335,6 +351,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC6032432E77929200A1D564 /* ForEachStore */ = {
+			isa = PBXGroup;
+			children = (
+				AC6032502E77930F00A1D564 /* TodosView.swift */,
+				AC6032482E77930100A1D564 /* TodosFeature.swift */,
+				AC60324C2E77930900A1D564 /* TodoRow.swift */,
+				AC6032442E7792FA00A1D564 /* TodoFeature.swift */,
+			);
+			path = ForEachStore;
+			sourceTree = "<group>";
+		};
 		AC8455BB2E72A068004923F3 /* 기초 예제 */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,6 +577,7 @@
 			children = (
 				AC8455BB2E72A068004923F3 /* 기초 예제 */,
 				AC8455BC2E72A07A004923F3 /* IfLetStore */,
+				AC6032432E77929200A1D564 /* ForEachStore */,
 			);
 			path = TCA;
 			sourceTree = "<group>";
@@ -703,6 +731,7 @@
 				ACF299A92C1ACB4400DCFF27 /* ViewModel.swift in Sources */,
 				ACF299742C19939400DCFF27 /* ContentView.swift in Sources */,
 				ACF3A2A12E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
+				AC6032532E77930F00A1D564 /* TodosView.swift in Sources */,
 				ACBC21EB2E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */,
 				ACFB68CF2E6E6F8700371514 /* ShareLinkDemoView.swift in Sources */,
 				ACF299A42C1ACB1100DCFF27 /* PublisherViewModel.swift in Sources */,
@@ -720,6 +749,7 @@
 				ACF299A02C1AC12C00DCFF27 /* PublisherView.swift in Sources */,
 				ACF3A26C2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
 				AC5FF5A92E740E8700FCE60D /* ChildFeature.swift in Sources */,
+				AC60324E2E77930900A1D564 /* TodoRow.swift in Sources */,
 				ACFB68E52E6ECABF00371514 /* TextEditorDemoView.swift in Sources */,
 				ACF3A2672E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
 				ACF3A27B2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
@@ -734,12 +764,14 @@
 				ACFB68DE2E6E79EA00371514 /* TabViewDemoView.swift in Sources */,
 				ACBC21F72E69569900A08ADE /* LinkDemoView.swift in Sources */,
 				ACBC21EE2E69520C00A08ADE /* LabelDemoView.swift in Sources */,
+				AC60324A2E77930100A1D564 /* TodosFeature.swift in Sources */,
 				ACF3A2A52E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
 				ACF3A2812E667126005CA854 /* BindableDemoView.swift in Sources */,
 				ACBC21E72E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
 				ACFB68F22E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */,
 				ACFB68FF2E6FF2CB00371514 /* TCADemoFeature.swift in Sources */,
 				ACFB68EA2E6ECBDE00371514 /* TextFieldDemoView.swift in Sources */,
+				AC6032462E7792FA00A1D564 /* TodoFeature.swift in Sources */,
 				ACF3A25B2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACF3A29D2E66E81C005CA854 /* TextDemoView.swift in Sources */,
 				ACBC220B2E6AC69C00A08ADE /* NavigationSplitDemoView.swift in Sources */,
@@ -775,6 +807,7 @@
 				ACFB68DF2E6E79EA00371514 /* TabViewDemoView.swift in Sources */,
 				ACFB68EF2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */,
 				ACF3A2552E652777005CA854 /* StateObjectDemoView.swift in Sources */,
+				AC6032512E77930F00A1D564 /* TodosView.swift in Sources */,
 				ACFB68BD2E6E676100371514 /* ScrollViewDemoView.swift in Sources */,
 				ACBC21FA2E695B7200A08ADE /* ListDemoView.swift in Sources */,
 				ACF3A26F2E658E01005CA854 /* ScaledMetricDemoView.swift in Sources */,
@@ -792,6 +825,7 @@
 				ACF3A2682E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
 				ACF3A27C2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
 				AC5FF5AA2E740E8700FCE60D /* ChildFeature.swift in Sources */,
+				AC60324F2E77930900A1D564 /* TodoRow.swift in Sources */,
 				ACF3A2572E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACFB68F42E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */,
 				ACDE45752E6030F800E5E997 /* StateDemoViewTests.swift in Sources */,
@@ -806,12 +840,14 @@
 				ACF3A2802E667126005CA854 /* BindableDemoView.swift in Sources */,
 				ACF3A2A32E680C5D005CA854 /* ButtonDemoView.swift in Sources */,
 				ACFB68EB2E6ECBDE00371514 /* TextFieldDemoView.swift in Sources */,
+				AC6032492E77930100A1D564 /* TodosFeature.swift in Sources */,
 				ACFB68B52E6E5EC600371514 /* ProgressDemoView.swift in Sources */,
 				ACF3A25D2E655688005CA854 /* EnvironmentValueDemoView.swift in Sources */,
 				ACFB68E72E6ECABF00371514 /* TextEditorDemoView.swift in Sources */,
 				ACF3A2632E657238005CA854 /* SceneStorageDemoView.swift in Sources */,
 				ACFB68BB2E6E631300371514 /* RenameButtonDemoView.swift in Sources */,
 				ACBC21FE2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
+				AC6032452E7792FA00A1D564 /* TodoFeature.swift in Sources */,
 				ACBC22112E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
 				ACBC22172E6ADAE400A08ADE /* PickerDemoView.swift in Sources */,
 				AC33C6BE2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
@@ -845,6 +881,7 @@
 				ACBC21E92E694DE400A08ADE /* GroupBoxDemoView.swift in Sources */,
 				AC5FF5A22E740E7900FCE60D /* ParentFeature.swift in Sources */,
 				ACFB68DD2E6E79EA00371514 /* TabViewDemoView.swift in Sources */,
+				AC60324D2E77930900A1D564 /* TodoRow.swift in Sources */,
 				ACFB68ED2E6ECCFA00371514 /* ToggleDemoView.swift in Sources */,
 				ACF3A2542E652777005CA854 /* StateObjectDemoView.swift in Sources */,
 				ACFB68BF2E6E676100371514 /* ScrollViewDemoView.swift in Sources */,
@@ -862,12 +899,14 @@
 				ACFB68FB2E6FF14600371514 /* TCADemoView.swift in Sources */,
 				ACF3A26D2E658897005CA854 /* FocusStateDemoView.swift in Sources */,
 				ACF3A2692E65796E005CA854 /* GestureStateDemoView.swift in Sources */,
+				AC60324B2E77930100A1D564 /* TodosFeature.swift in Sources */,
 				ACF3A27D2E666DB5005CA854 /* ObservableDemoView.swift in Sources */,
 				AC5FF5A82E740E8700FCE60D /* ChildFeature.swift in Sources */,
 				ACF3A2592E653051005CA854 /* EnvironmentObjectDemoRoot.swift in Sources */,
 				ACFB68F32E6FC4AA00371514 /* StopwatchDemoView.swift in Sources */,
 				ACDE45732E6029D400E5E997 /* StateDemoView.swift in Sources */,
 				ACBC21E52E694A5C00A08ADE /* GaugeDemoView.swift in Sources */,
+				AC6032472E7792FA00A1D564 /* TodoFeature.swift in Sources */,
 				ACF3A2612E656BCF005CA854 /* AppStorageDemoView.swift in Sources */,
 				ACFB68DA2E6E785800371514 /* StepperDemoView.swift in Sources */,
 				ACF3A2A72E681EDB005CA854 /* EditButtonDemoView.swift in Sources */,
@@ -885,6 +924,7 @@
 				ACFB68B92E6E631300371514 /* RenameButtonDemoView.swift in Sources */,
 				ACBC21FD2E696A1000A08ADE /* MenuDemoView.swift in Sources */,
 				ACBC22132E6ACAA400A08ADE /* PastButtonDemoView.swift in Sources */,
+				AC6032522E77930F00A1D564 /* TodosView.swift in Sources */,
 				ACBC22162E6ADAE400A08ADE /* PickerDemoView.swift in Sources */,
 				AC33C6BC2E6171ED00CBCBA4 /* BindingDemoView.swift in Sources */,
 				ACFB68CE2E6E6F8700371514 /* ShareLinkDemoView.swift in Sources */,
