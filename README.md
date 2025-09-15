@@ -19,6 +19,14 @@ SwiftUI와 Combine을 활용한 iOS 리액티브 프로그래밍 학습 프로�
 - **TCA 기초 예제**: Counter 앱을 통한 State, Action, Reducer 패턴 학습
   - 증가/감소/리셋 기능이 있는 카운터 구현
   - `@Reducer`, `@ObservableState` 활용
+- **TCA IfLetStore**: Optional 상태 관리를 위한 부모-자식 구조 패턴
+  - ParentFeature에서 ChildFeature의 생성/제거 관리
+  - Optional State 바인딩 및 Action 전달
+- **TCA ForEachStore**: 동적 컬렉션 관리를 위한 Todo 목록 패턴
+  - TodosFeature: 할 일 목록 관리 및 완료 개수 추적
+  - TodoFeature: 개별 할 일 상태 및 액션 관리
+  - IdentifiedActionOf를 통한 타입 안전한 액션 관리
+  - Modern TCA 바인딩 패턴 (@Bindable, $store.property.sending)
 
 ### ⏰ SceneDelegate 관련 예제
 - **Stopwatch**: 시계/타이머 기능 데모
@@ -81,8 +89,19 @@ SwiftUI-Combine/
 ├── View/
 │   ├── ContentView.swift             # 메인 네비게이션 뷰
 │   ├── TCA/                          # TCA 관련 데모
-│   │   ├── TCADemoFeature.swift      # TCA Feature 정의
-│   │   └── TCADemoView.swift         # TCA 뷰 구현
+│   │   ├── 기초 예제/                  # TCA 기본 패턴
+│   │   │   ├── TCADemoFeature.swift   # Counter Feature
+│   │   │   └── TCADemoView.swift      # Counter 뷰
+│   │   ├── IfLetStore/                # Optional 상태 관리
+│   │   │   ├── ParentFeature.swift    # 부모 Feature
+│   │   │   ├── ParentView.swift       # 부모 뷰
+│   │   │   ├── ChildFeature.swift     # 자식 Feature
+│   │   │   └── ChildView.swift        # 자식 뷰
+│   │   └── ForEachStore/              # 동적 컬렉션 관리
+│   │       ├── TodosFeature.swift     # Todo 목록 Feature
+│   │       ├── TodosView.swift        # Todo 목록 뷰
+│   │       ├── TodoFeature.swift      # 개별 Todo Feature
+│   │       └── TodoRow.swift          # Todo 행 뷰
 │   ├── SceneDelegate/                # Scene 관련 데모
 │   │   └── StopwatchDemoView.swift   # 스톱워치 데모
 │   ├── Annotation/                   # 상태 관리 데모 뷰들
@@ -162,6 +181,14 @@ xcodebuild test -project SwiftUI-Combine.xcodeproj -scheme SwiftUI-Combine
 ## 🔄 최근 업데이트
 
 ### 2025년 9월
+- **TCA ForEachStore 패턴 완성**: 동적 컬렉션 관리를 위한 Todo 목록 구현
+  - `TodosFeature`: 할 일 목록 관리 및 완료 개수 추적 기능
+  - `TodoFeature`: 개별 할 일의 상태 변경 및 제목 수정 기능
+  - Modern TCA 바인딩: `@Bindable`과 `$store.property.sending` 패턴 활용
+  - `IdentifiedActionOf` 타입 안전성 보장
+- **TCA IfLetStore 패턴 구현**: Optional 상태 관리를 위한 부모-자식 구조
+  - `ParentFeature`에서 `ChildFeature`의 생성/제거 관리
+  - Optional State 바인딩 및 Action 전달 패턴
 - **TCA 패턴 구현 완료**: The Composable Architecture 라이브러리 추가 및 Counter 예제 완성
   - `TCADemoFeature`: State, Action, Reducer 패턴 완벽 구현
   - `TCADemoView`: 증가/감소/리셋 기능을 가진 인터랙티브한 카운터 UI
